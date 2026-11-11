@@ -1,0 +1,84 @@
+{
+  "siteUrl": "https://shawnsun0813.github.io/class-planning-assistant/",
+  "deployedCommit": "3fafd3582bcdfd83c7e63c8780f3bd1e15c6f9bd",
+  "workflowRun": "https://github.com/Shawnsun0813/class-planning-assistant/actions/runs/43034046878",
+  "tlsValidationDisabled": false,
+  "httpsChecks": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 431,
+      "matchesReviewedBuild": true
+    },
+    {
+      "path": "assets/index-Dy7Bx_Fj.js",
+      "status": 200,
+      "bytes": 288820,
+      "matchesReviewedBuild": true
+    },
+    {
+      "path": "assets/lib-DhKljYSZ.js",
+      "status": 200,
+      "bytes": 6153767,
+      "matchesReviewedBuild": true
+    },
+    {
+      "path": "assets/index-BLY-4QPd.css",
+      "status": 200,
+      "bytes": 26380,
+      "matchesReviewedBuild": true
+    },
+    {
+      "path": "data/catalog.json",
+      "status": 200,
+      "bytes": 322760,
+      "matchesReviewedBuild": true
+    },
+    {
+      "path": "data/nonsom-history.json",
+      "status": 200,
+      "bytes": 358986,
+      "matchesReviewedBuild": true
+    },
+    {
+      "path": "data/bidding-history.json",
+      "status": 200,
+      "bytes": 2290343,
+      "matchesReviewedBuild": true
+    },
+    {
+      "path": "data/enrollment-history.json",
+      "status": 200,
+      "bytes": 1660047,
+      "matchesReviewedBuild": true
+    },
+    {
+      "path": "data/exchange-history.json",
+      "status": 200,
+      "bytes": 2890,
+      "matchesReviewedBuild": true
+    },
+    {
+      "path": "data/reviews.json",
+      "status": 200,
+      "bytes": 7564,
+      "matchesReviewedBuild": true
+    }
+  ],
+  "sharedChromeChecks": [
+    "Live HTTPS page rendered without TLS warning",
+    "Imported historical baseline: 22 credits, 7 courses, unconfirmed state",
+    "Switched S1/S2, correct selected state and 651-02 meetings",
+    "Entered total100/used10, then temporary total5",
+    "Reload preserved 22/7 and total5/used10",
+    "Visible validation error and disabled budget save",
+    "Restored test total0/used0 and left historical timetable unconfirmed"
+  ],
+  "independentHeadlessBrowser": "Blocked by local ERR_CERT_AUTHORITY_INVALID; not reported as passed",
+  "notVerified": [
+    "Live mobile independent browser",
+    "Actual model inference",
+    "Complete auction rules or effectiveness",
+    "Account/cloud data isolation"
+  ]
+}

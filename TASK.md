@@ -4,7 +4,7 @@
 
 ## 当前结论
 
-首版核心候选可试用，业务代码与数据已实现并运行；免费模型真实推理仍受环境限制，不能标为完整AI能力或竞价效果验收通过。用户本人是首位试用者，下一步由本人体验并反馈。正式部署与发送邀请未执行。
+首版核心候选可试用，业务代码与数据已实现并运行；免费模型真实推理仍受环境限制，不能标为完整AI能力或竞价效果验收通过。用户本人是首位试用者，下一步由本人体验并反馈。GitHub Pages试用版已部署，未发送邀请。
 
 工作区服务：http://localhost:5173/ （云端共享浏览器已打开）。生产构建在dist，独立4173预览已实际检查。此入口不等于长期托管，也不是其他机器的本地服务。
 
@@ -62,3 +62,13 @@ DESIGN-02、ENGINEER-02、REVIEW-DESIGN-02已完成。目录行替代原卡片�
 当前已完成配置审核：官方Action固定SHA、构建仅读权限、部署仅pages写与OIDC、只上传dist、锁依赖与核心检查。GitHub连接可推代码，但启用Pages的API POST返回403 Resource not accessible by integration；当前Pages GET为404。共享浏览器未登录GitHub，设置页显示404/Sign in，未执行设置变更。此为平台连接权限限制，非用户拒绝授权。
 
 仍需启用仓库Pages的GitHub Actions源，再实际发布并由独立评审访问返回的HTTPS网址。尚未取得成功部署或线上验收，不提供猜测的可用网址。
+
+## Pages 发布结果与架构评估
+
+用户完成Pages Source选择后，工作流43034046878重跑build/deploy均成功，发布源提交3fafd3582bcdfd83c7e63c8780f3bd1e15c6f9bd。线上入口：https://shawnsun0813.github.io/class-planning-assistant/ 。早先403启用限制已由所有者操作解决，不再作为当前发布阻塞。
+
+主Agent使用受信HTTPS实际读取10份线上产物，全部200且与审核过的本地build逐字节哈希相同；使用默认共享Chrome实际打开线上网站，核对22学分7门历史基线、S1/S2、预算输入／错误禁存、临时非法预算刷新保留，并将临时预算测试值恢复0。
+
+独立审核已验证配置、Action SHA、本地项目子路径与Actions成功状态；其独立headless线上浏览器受本机证书信任差异阻塞，不把该项写成通过。真实AI推理、账号云同步、完整竞价规则和效果仍未验证。证据见artifacts/deploy/live-manager-evidence.json及DEPLOYMENT-REVIEW.md。
+
+用户随后提供的全栈清单已明确是产品建设建议，不是课程作业硬要求。两位Agent独立评估后，建议下一阶段按长期使用需要补标准账号、数据库、服务端模型与环境隔离；A/B、统计、GitHub Project不自动纳入当前PRD。未实施重构或OpenRouter接入，结论见ARCHITECTURE-REVIEW.md。

@@ -1,0 +1,31 @@
+{
+  "review": "REVIEW-DEPLOY-01",
+  "scope": "real_public_https_site",
+  "url": "https://shawnsun0813.github.io/class-planning-assistant/",
+  "startedAt": "2026-11-11T14:06:00.573517+00:00",
+  "deployedSourceShaReportedByParent": "3fafd3582bcdfd83c7e63c8780f3bd1e15c6f9bd",
+  "checks": [],
+  "pageErrors": [],
+  "badResponses": [],
+  "failedRequests": [
+    {
+      "url": "https://shawnsun0813.github.io/class-planning-assistant/",
+      "failure": "net::ERR_CERT_AUTHORITY_INVALID"
+    }
+  ],
+  "tlsValidationDisabled": false,
+  "status": "blocked_or_failed",
+  "exception": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://shawnsun0813.github.io/class-planning-assistant/\nCall log:\n  - navigating to \"https://shawnsun0813.github.io/class-planning-assistant/\", waiting until \"domcontentloaded\"\n",
+  "finishedAt": "2026-11-11T14:06:01.905846+00:00",
+  "workflowIndependentRead": {
+    "status": "completed",
+    "conclusion": "success",
+    "headSha": "3fafd3582bcdfd83c7e63c8780f3bd1e15c6f9bd",
+    "url": "https://github.com/Shawnsun0813/class-planning-assistant/actions/runs/43034046878"
+  },
+  "localSourceSha": "3fafd3582bcdfd83c7e63c8780f3bd1e15c6f9bd",
+  "configFingerprints": {
+    ".github/workflows/deploy.yml": "2e26386065b334ba4915894ae1704932bea299f8fcc0ee2942a9e307cad04cee",
+    "vite.config.ts": "fbe987ed3cafb4100551c7cfaed050abb5f4b8118999d727f507ef3f9b6da094"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "commit": "3fafd3582bcdfd83c7e63c8780f3bd1e15c6f9bd",
+  "runId": 43034046878,
+  "runUrl": "https://github.com/Shawnsun0813/class-planning-assistant/actions/runs/43034046878",
+  "status": "completed",
+  "conclusion": "failure",
+  "failedStep": "Read Pages configuration",
+  "observedError": "Get Pages site failed. Verify Pages is enabled and configured to build using GitHub Actions. Error: Not Found",
+  "pagesEnableApi": {
+    "method": "POST",
+    "status": 403,
+    "message": "Resource not accessible by integration"
+  },
+  "nextRequiredAction": "Repository owner selects Pages Source GitHub Actions; then rerun workflow and verify returned live URL",
+  "liveVerified": false
+}

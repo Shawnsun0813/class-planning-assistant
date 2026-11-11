@@ -1,23 +1,30 @@
-# GitHub Pages 部署
+# GitHub Pages 部署与使用
 
-2026年11月11日（America/New_York），用户明确要求将现有版本部署到GitHub Pages并由多Agent审核。本轮使用当前仓库和静态应用，不创建付费服务，不发送邀请，不接管学校账号。
+当前已上线：[打开选课助手](https://shawnsun0813.github.io/class-planning-assistant/)。页面可直接分享，个人方案保存在每位使用者自己的浏览器。
 
-## 当前发布状态
+发布源提交：3fafd3582bcdfd83c7e63c8780f3bd1e15c6f9bd。工作流：[43034046878](https://github.com/Shawnsun0813/class-planning-assistant/actions/runs/43034046878)，所有者启用Pages后重跑构建和发布均成功。以下原配置／启用记录保留为过程与复现信息；早先403不是当前上线阻塞。
 
-工作流和本地子路径候选已准备并验证，**尚未确认上线，没有已验证的分享网址**。
+## 实际线上验证
 
-主Agent实际查询GitHub Pages返回404，随后在用户本轮授权下尝试启用，返回403 `Resource not accessible by integration`。这是当前GitHub连接缺少Pages管理权限，不代表本地构建失败。共享Chrome未登录；仓库设置页显示404或Sign in，无法用该会话代替用户完成设置。
+- 受信HTTPS获取index、3个构建assets及6份JSON均200，逐文件SHA与已审核本地dist相同。
+- 主Agent默认共享Chrome实际访问线上网址，无TLS告警；历史基线22学分7门、S1/S2正确切换、预算5／已用10错误与禁存、刷新后原方案和输入保留均已观察。测试值已恢复0／0，历史方案仍未确认。
+- 独立评审完成配置和本地子路径交互检查；其独立headless浏览器的线上访问被本机ERR_CERT_AUTHORITY_INVALID阻塞，线上互动未执行，未关闭TLS校验。该限制不等于站点证书已证实无效。
+- 模型真实推理、完整个人资格／竞价规则、竞价效果、账号及跨设备同步不因部署而通过。
 
-需要仓库所有者在GitHub的Settings → Pages中，将Build and deployment的Source选择为GitHub Actions。完成后，再手动触发本工作流或重跑之前因未启用Pages而失败的运行；由主Agent在可用权限内核查工作流、Pages返回网址及线上功能。选择发布源本身不等于工作流已成功发布，不能跳过后续核验。
+证据：[主Agent线上验证](../artifacts/deploy/live-manager-evidence.json)、[独立部署审核](DEPLOYMENT-REVIEW.md)。
+
+## 授权与启用
+
+2026年11月11日，用户明确授权把现有版本部署到GitHub Pages并进行多Agent审核。初次API启用因连接缺少管理权限返回403；用户随后在仓库设置中选择GitHub Actions，主Agent重跑工作流并完成发布及上述线上核查。没有创建付费服务、发送邀请或接管学校账号。
 
 ## 部署配置
 
 工作流：[deploy.yml](../.github/workflows/deploy.yml)。`main`分支推送或手动触发后执行两个阶段：
 
 1. 构建阶段使用Node 24、锁定依赖安装、15项核心检查和生产构建；仅上传`dist`。
-2. 发布阶段依赖成功构建，将同一份产物部署到`github-pages`环境，并使用GitHub返回的`page_url`。真实线上网址与结果由主Agent核验后更新README和TASK，不能只凭配置文件宣称已上线。
+2. 发布阶段依赖成功构建，将同一份产物部署到`github-pages`环境，并使用GitHub返回的`page_url`。当前实际网址与验证结果已更新至README、TASK及本页；配置存在或工作流成功本身不替代线上核验。
 
-默认只读仓库内容；构建阶段另有Pages读取权限，发布阶段仅有`pages: write`与`id-token: write`。并发组不取消正在进行的发布，避免同一站点被同时写入。工作流不自动开启尚未配置的Pages；由主Agent在本轮明确授权范围内完成仓库设置，再启动工作流。
+默认只读仓库内容；构建阶段另有Pages读取权限，发布阶段仅有`pages: write`与`id-token: write`。并发组不取消正在进行的发布，避免同一站点被同时写入。工作流不自动开启尚未配置的Pages；初次启用需仓库所有者配置，现已完成，后续main推送按同一流程发布。
 
 所有Actions都固定到实际验证的官方发布提交，而不是可移动的major标签：
 

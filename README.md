@@ -2,6 +2,10 @@
 
 面向Yale SOM同学，以用户本人为首位用户。根据时间限制、求职方向等偏好，浏览真实课程资料、比较课程、生成和调整S1／S2课表，并在用户输入预算内准备有依据的竞价分配草案。
 
+## 在线使用
+
+[打开选课助手](https://shawnsun0813.github.io/class-planning-assistant/)。该链接可直接分享；GitHub Pages已部署当前试用版。部署与实际验证范围见[部署说明](docs/DEPLOYMENT.md)和[独立评审](docs/DEPLOYMENT-REVIEW.md)。
+
 ## 运行
 
 ```sh
@@ -57,4 +61,6 @@ npm run preview
 - [来源与评价](docs/SOURCES.md)、[数据说明](docs/DATA.md)、[实施与测试](docs/IMPLEMENTATION.md)。
 - [后续部署](docs/DEPLOYMENT.md)、[协作要求](AGENTS.md)、[START-HERE v4.2](START-HERE.txt)。
 
-本仓库为项目文件维护入口；原Pages版为早期审阅记录，不自动同步。原版START-PROMPT仍未提供，不编造其内容。尚未正式发布、发送邀请或向学校提交选课／竞价。
+本仓库为项目文件维护入口；原Pages版为早期审阅记录，不自动同步。原版START-PROMPT仍未提供，不编造其内容。GitHub Pages试用版已公开部署；未发送邀请或向学校提交选课／竞价。
+
+关于账号、数据库、服务端AI和后续框架的分阶段建议，见[架构反思](docs/ARCHITECTURE-REVIEW.md)；当前未启动全栈迁移。
