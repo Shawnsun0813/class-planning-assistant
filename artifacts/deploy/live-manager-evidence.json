@@ -80,5 +80,6 @@
     "Actual model inference",
     "Complete auction rules or effectiveness",
     "Account/cloud data isolation"
-  ]
+  ],
+  "sharedChromeScreenshot": "artifacts/deploy/live-shared-chrome.png"
 }

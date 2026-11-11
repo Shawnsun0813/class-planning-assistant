@@ -11,6 +11,8 @@
 - 独立评审完成配置和本地子路径交互检查；其独立headless浏览器的线上访问被本机ERR_CERT_AUTHORITY_INVALID阻塞，线上互动未执行，未关闭TLS校验。该限制不等于站点证书已证实无效。
 - 模型真实推理、完整个人资格／竞价规则、竞价效果、账号及跨设备同步不因部署而通过。
 
+实际界面：[默认共享Chrome线上截图](../artifacts/deploy/live-shared-chrome.png)。
+
 证据：[主Agent线上验证](../artifacts/deploy/live-manager-evidence.json)、[独立部署审核](DEPLOYMENT-REVIEW.md)。
 
 ## 授权与启用
