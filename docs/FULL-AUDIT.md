@@ -1,6 +1,6 @@
 # 全面数据与用户路径复核
 
-任务：REVIEW-AUDIT-02｜日期：2026年11月11日（America/New_York）｜状态：冻结候选本地独立复验通过；真实线上复验另记。
+任务：REVIEW-AUDIT-02｜日期：2026年11月11日（America/New_York）｜状态：冻结候选本地独立复验通过；主Agent线上产物比对通过，独立线上浏览器受TLS信任错误阻塞。
 
 ## 本轮结论
 
@@ -9,6 +9,14 @@
 本轮修复让官方简介真正贯通数据、搜索、相关性、模型资料上下文和界面；评价部分接入的是8条有限公开材料及9个来源的真实访问／覆盖状态，**不是完整SOM官方课评或全量review网站数据接入**。正式SOM评价记录仍为0，受认证和覆盖限制，页面已如实说明。不能把来源入口增加、部署成功或本地通过当成正式评价数据已取得。
 
 冻结源文件聚合哈希：`62f1b863fe49c141a2bc8ca9a938e85882d6cb0438de510f2a2c8aa629425db1`。逐文件指纹与实际浏览器结果见 [`candidate-browser-evidence.json`](../artifacts/audit/candidate-browser-evidence.json)。
+
+## 发布后的线上核查范围
+
+本轮应用发布提交为 `9919546eee7c837b6625b8f70cd52337e1fe6bd8`，工作流43053460251。主Agent通知该工作流成功后，本评审对精确网址 `https://shawnsun0813.github.io/class-planning-assistant/` 进行了唯一一次默认TLS的独立系统Chromium访问，未关闭证书校验。
+
+浏览器导航直接报 `net::ERR_CERT_AUTHORITY_INVALID`，没有取得应用页面。因此独立线上交互断言为空，没有运行线上211简介、9来源或课表预算断言；不能把本地通过写成独立线上交互通过。该结果只说明此测试环境的浏览器信任路径受阻，不证明网站本身对所有使用者无效。证据见 [`online-independent-tls.json`](../artifacts/audit/online-independent-tls.json)。
+
+主Agent另行采用保留环境CA信任的HTTPS客户端，实际读取线上11份产物：index、3个构建asset及7份运行JSON，全部HTTP200，逐文件哈希与已审核构建一致。该检查证明线上发布产物对应本轮审核候选，是实际线上HTTP证据；它与上述独立浏览器被阻塞的范围分别记录，不相互替代。证据见 [`live-manager-evidence.json`](../artifacts/audit/live-manager-evidence.json)。
 
 ## 冻结候选的实际复验结果
 

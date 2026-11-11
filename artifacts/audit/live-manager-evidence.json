@@ -1,0 +1,110 @@
+{
+  "checkedAt": "2026-11-11T15:58:31.157324+00:00",
+  "sourceCommit": "9919546eee7c837b6625b8f70cd52337e1fe6bd8",
+  "workflowRun": 43053460251,
+  "siteUrl": "https://shawnsun0813.github.io/class-planning-assistant/",
+  "transport": "urllib with inherited proxy and default CA verification; no TLS bypass",
+  "files": [
+    {
+      "path": "assets/index-DMXey-O1.css",
+      "status": 200,
+      "url": "https://shawnsun0813.github.io/class-planning-assistant/assets/index-DMXey-O1.css",
+      "bytes": 28628,
+      "sha256": "127d3662d08aef2acf163a273be08007e2690237571666f91daf73553102662a",
+      "expectedSha256": "127d3662d08aef2acf163a273be08007e2690237571666f91daf73553102662a",
+      "matchesReviewedBuild": true
+    },
+    {
+      "path": "assets/index-VPbgpO-c.js",
+      "status": 200,
+      "url": "https://shawnsun0813.github.io/class-planning-assistant/assets/index-VPbgpO-c.js",
+      "bytes": 299187,
+      "sha256": "4fdcfde7ddd2e3e3105cc437c0bc2165db2db8c6f2c7356df34c86669102f66a",
+      "expectedSha256": "4fdcfde7ddd2e3e3105cc437c0bc2165db2db8c6f2c7356df34c86669102f66a",
+      "matchesReviewedBuild": true
+    },
+    {
+      "path": "assets/lib-DhKljYSZ.js",
+      "status": 200,
+      "url": "https://shawnsun0813.github.io/class-planning-assistant/assets/lib-DhKljYSZ.js",
+      "bytes": 6153767,
+      "sha256": "f0dbcb6c03183fc8c5ccf35e638b0ba6a2df7e6e204a52b6e4dde3817e2b5d3b",
+      "expectedSha256": "f0dbcb6c03183fc8c5ccf35e638b0ba6a2df7e6e204a52b6e4dde3817e2b5d3b",
+      "matchesReviewedBuild": true
+    },
+    {
+      "path": "data/bidding-history.json",
+      "status": 200,
+      "url": "https://shawnsun0813.github.io/class-planning-assistant/data/bidding-history.json",
+      "bytes": 2290343,
+      "sha256": "b6a74fd6b14a3c1a42d9dc4c6c838069df5dbec3be79139ef65eaf672c0f8269",
+      "expectedSha256": "b6a74fd6b14a3c1a42d9dc4c6c838069df5dbec3be79139ef65eaf672c0f8269",
+      "matchesReviewedBuild": true
+    },
+    {
+      "path": "data/catalog.json",
+      "status": 200,
+      "url": "https://shawnsun0813.github.io/class-planning-assistant/data/catalog.json",
+      "bytes": 683236,
+      "sha256": "6ea4d49b9d5e936d016103a67454f212d7d1e5a6544425cd3a56141e6aa2c241",
+      "expectedSha256": "6ea4d49b9d5e936d016103a67454f212d7d1e5a6544425cd3a56141e6aa2c241",
+      "matchesReviewedBuild": true
+    },
+    {
+      "path": "data/enrollment-history.json",
+      "status": 200,
+      "url": "https://shawnsun0813.github.io/class-planning-assistant/data/enrollment-history.json",
+      "bytes": 1660047,
+      "sha256": "2c28f4b62dc5c003e981b7267b596c0cdd4f43223d188dfedc2ef94d75ec2f41",
+      "expectedSha256": "2c28f4b62dc5c003e981b7267b596c0cdd4f43223d188dfedc2ef94d75ec2f41",
+      "matchesReviewedBuild": true
+    },
+    {
+      "path": "data/exchange-history.json",
+      "status": 200,
+      "url": "https://shawnsun0813.github.io/class-planning-assistant/data/exchange-history.json",
+      "bytes": 2890,
+      "sha256": "e9bde9a768da257b478e840c3e5e409acf480d188281e7eb9261c731b9a09f90",
+      "expectedSha256": "e9bde9a768da257b478e840c3e5e409acf480d188281e7eb9261c731b9a09f90",
+      "matchesReviewedBuild": true
+    },
+    {
+      "path": "data/nonsom-history.json",
+      "status": 200,
+      "url": "https://shawnsun0813.github.io/class-planning-assistant/data/nonsom-history.json",
+      "bytes": 358986,
+      "sha256": "59a75461e078c1a66c9c1ad099c4a3118c3edbba7667f0b4d18688f27a26e88d",
+      "expectedSha256": "59a75461e078c1a66c9c1ad099c4a3118c3edbba7667f0b4d18688f27a26e88d",
+      "matchesReviewedBuild": true
+    },
+    {
+      "path": "data/review-sources.json",
+      "status": 200,
+      "url": "https://shawnsun0813.github.io/class-planning-assistant/data/review-sources.json",
+      "bytes": 228643,
+      "sha256": "4f12bfbfc15f5d2efddd6b59086eacc9e77021e5aea727f7772390e66da3dc36",
+      "expectedSha256": "4f12bfbfc15f5d2efddd6b59086eacc9e77021e5aea727f7772390e66da3dc36",
+      "matchesReviewedBuild": true
+    },
+    {
+      "path": "data/reviews.json",
+      "status": 200,
+      "url": "https://shawnsun0813.github.io/class-planning-assistant/data/reviews.json",
+      "bytes": 17003,
+      "sha256": "31d1673fbe24f862bec353986527882eff3b74869c89f1165373c41a92f77221",
+      "expectedSha256": "31d1673fbe24f862bec353986527882eff3b74869c89f1165373c41a92f77221",
+      "matchesReviewedBuild": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "url": "https://shawnsun0813.github.io/class-planning-assistant/index.html",
+      "bytes": 431,
+      "sha256": "0f45de1251178ba1a8f290e45bb0cf9c2f0dbe1bf8aaf3bbb97b65d7b1bbd880",
+      "expectedSha256": "0f45de1251178ba1a8f290e45bb0cf9c2f0dbe1bf8aaf3bbb97b65d7b1bbd880",
+      "matchesReviewedBuild": true
+    }
+  ],
+  "allMatch": true,
+  "liveUiValidation": "not established by this artifact comparison; see browser audit"
+}

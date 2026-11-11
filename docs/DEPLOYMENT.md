@@ -80,3 +80,13 @@ GitHub Pages为公开HTTPS站点，适用于给同学分享一个网址。个人
 后续`main`更新会自动执行同一构建与发布检查。恢复旧界面或逻辑时，通过普通Git提交恢复已知版本，再由同一工作流发布；不强制改写历史。当前构建不在发布流程中重新抓取课程网站，也不下载模型权重。
 
 目录刷新和历史表处理仍按`scripts/fetch_catalog.py`及[数据说明](DATA.md)执行，更新后核对课程身份、先修和受影响方案，不静默改写用户决定。
+# 2026年11月11日：简介与评价来源修复发布
+
+应用源版本：`9919546eee7c837b6625b8f70cd52337e1fe6bd8`；[Actions43053460251](https://github.com/Shawnsun0813/class-planning-assistant/actions/runs/43053460251)的build和deploy均成功。使用入口仍为 https://shawnsun0813.github.io/class-planning-assistant/ 。后续仅文档与证据提交不改变此应用版本。
+
+本轮增加完整官方简介、可读官方入口、当期／往年大纲区分、评价来源访问状态及课程身份校验。共245教学班、211份简介／34条源缺失、8份公开材料／5门课、9个来源；正式SOM评价0份。35条常规课时仍未知或歧义，925新增时间已保留。校内评价未接通，不把外链、访谈或CLI工具当成正式评价数据流。
+
+11项Python、22项TS、10项浏览器测试与构建通过；独立评审全量源字段对比和16项实际流程通过，设计者实际检查1440／390。本次默认CA受信HTTPS读取全部11份线上文件，所有状态200且哈希与审核构建一致，见 [live-manager-evidence.json](../artifacts/audit/live-manager-evidence.json)。这确认发布内容一致，不代替真实线上交互验收。
+
+共享CUA浏览器本轮无法建立页面，错误为“Browser Use could not read requirements”；独立浏览器在成功部署后正常TLS的一次尝试返回`ERR_CERT_AUTHORITY_INVALID`，未取得页面或执行线上交互断言，见artifacts/audit/online-independent-tls.json。没有关闭验证或绕过登录，也不据此判断网站证书无效。本地实际运行和线上产物比对分别记录。模型推理、校内评价、资格和竞价效果的既有限制不因发布而消失。
+
