@@ -1,0 +1,38 @@
+{
+  "checks": [
+    "desktop 20-row initial directory and comparison placed before list",
+    "discussion dialog opens with model limitation and Escape closes",
+    "22 historical -> discuss18 -> adopt18 -> undo22, unknown qualification/retreat retained",
+    "temporary invalid budget survives reload without losing22/7 plan",
+    "overspend stays textual red error and blocks saving",
+    "390 mobile conditions collapsible, search and comparison accessible,878 full title wraps without page overflow",
+    "mobile discussion dialog opens/closes, model state honest, no page overflow"
+  ],
+  "metrics": {
+    "desktop": {
+      "firstCourseY": 425.96875,
+      "cards": 20,
+      "width": 1440,
+      "viewport": 1440
+    },
+    "mobile": {
+      "firstCourseY": 561.625,
+      "cards": 20,
+      "width": 390,
+      "viewport": 390,
+      "conditionsDisplay": "none"
+    },
+    "mobile878Title": {
+      "height": 86,
+      "scroll": 86,
+      "overflow": "clip"
+    }
+  },
+  "errors": [],
+  "sourceFingerprints": {
+    "src/App.tsx": "33278dfaff1295d4701251631a80008c63acf923f5f9387b090a1b3e8c8eb439",
+    "src/styles.css": "0549bc603b175b71ffe80a6073cfd0719ca5177184e08aa9fd7a7bb67c85a4ed",
+    "src/core.ts": "1abc6648de074811c54f7ff7a9027074f166ebabfa95298cf8e44d8d47d5d77f"
+  },
+  "status": "passed_targeted_redesign_review"
+}

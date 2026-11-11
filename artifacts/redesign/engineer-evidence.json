@@ -1,0 +1,50 @@
+{
+  "task": "ENGINEER-02",
+  "sourceFingerprints": {
+    "src/App.tsx": "33278dfaff1295d4701251631a80008c63acf923f5f9387b090a1b3e8c8eb439",
+    "src/styles.css": "0549bc603b175b71ffe80a6073cfd0719ca5177184e08aa9fd7a7bb67c85a4ed",
+    "src/core.ts": "1abc6648de074811c54f7ff7a9027074f166ebabfa95298cf8e44d8d47d5d77f",
+    "src/ai.ts": "07119feedd4c6cb917286273aa62969b815d3054a4cd080b6a01b1ddc69450b9",
+    "src/types.ts": "2743475f57f5f65f47e673fe0e830733c5138745d5771e94cb9d0d6707822f3b"
+  },
+  "checks": [
+    {
+      "view": "desktop",
+      "firstCourseY": 425.96875,
+      "courseRows": 20,
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "pageErrors": []
+    },
+    {
+      "view": "mobile",
+      "firstCourseY": 561.625,
+      "courseRows": 20,
+      "viewport": 390,
+      "documentWidth": 390,
+      "pageErrors": []
+    }
+  ],
+  "production": {
+    "courseRows": 20,
+    "catalogCount": 245,
+    "pageErrors": [],
+    "title": "Course index."
+  },
+  "stableS2Screenshot": {
+    "path": "artifacts/redesign/engineer-plan.png",
+    "states": [
+      {
+        "text": "S1 前半学期",
+        "class": "",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "S2 后半学期",
+        "class": "selected",
+        "background": "rgb(23, 32, 30)"
+      }
+    ],
+    "assertion": "S2 selected computed background and S1 transparent awaited before capture"
+  }
+}

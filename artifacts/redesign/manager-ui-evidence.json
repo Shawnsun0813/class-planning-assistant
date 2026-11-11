@@ -1,0 +1,23 @@
+{
+  "checks": [
+    {
+      "viewport": 1440,
+      "firstCourseY": 425.96875,
+      "rows": 20,
+      "overflow": false,
+      "pageErrors": []
+    },
+    {
+      "viewport": 390,
+      "firstCourseY": 561.625,
+      "rows": 20,
+      "overflow": false,
+      "pageErrors": []
+    }
+  ],
+  "sourceFingerprints": {
+    "src/App.tsx": "33278dfaff1295d4701251631a80008c63acf923f5f9387b090a1b3e8c8eb439",
+    "src/styles.css": "0549bc603b175b71ffe80a6073cfd0719ca5177184e08aa9fd7a7bb67c85a4ed",
+    "src/core.ts": "1abc6648de074811c54f7ff7a9027074f166ebabfa95298cf8e44d8d47d5d77f"
+  }
+}

@@ -1,6 +1,6 @@
 # 首版实施与运行证据
 
-版本：0.1｜2026年11月11日｜实施任务 ENGINEER-01。
+版本：0.2｜2026年11月11日｜实施任务 ENGINEER-01、ENGINEER-02。
 
 ## 运行入口
 
@@ -34,10 +34,10 @@ npm run build
 
 - `npm run build`：通过，生成 `dist/`。静态资源使用相对基础路径；构建时将JSON资料复制至 `dist/data/`。
 - `npm run test`：15项通过，覆盖真实651班次差异、S1／S2、例外范围、锁定冲突、生成约束、未知特殊活动、课程编号复用、竞价口径、无参考不给分、预算、明确采纳与撤回、深层无效备份、日历日期。
-- `npm run test:e2e`：6项通过，真实 Chromium 覆盖历史导入→讨论→采纳→撤回→独立方案，超额预算不可保存，GPU不可用反馈，390px零结果恢复及无横向溢出。
+- `npm run test:e2e`：8项通过，真实 Chromium 覆盖历史导入→讨论→采纳→撤回→独立方案，超额预算不可保存，GPU不可用反馈，390px零结果恢复及无横向溢出。
 - 自动化窄屏截图：`test-results/mobile.png`，为运行证据，不是产品预设图。最终设计及独立评审截图和结果由各自责任者记录。
 
-初次 Vitest 误扫描 Playwright 用例导致工具配置失败，已用单独 `vitest.config.ts` 限定测试目录后修复，重跑单元及浏览器测试通过。恢复边界修复后最终为15项单元与6项浏览器测试。
+初次 Vitest 误扫描 Playwright 用例导致工具配置失败，已用单独 `vitest.config.ts` 限定测试目录后修复，重跑单元及浏览器测试通过。恢复边界修复时为15项单元与6项浏览器测试；本轮界面改版保留原断言，新增两项交互回归，当前为15项核心与8项浏览器测试。
 
 ## 免费模型的实际状态
 
@@ -62,3 +62,22 @@ npm run build
 预算和学分等有限数值草稿允许持久化，合法性在计算／采纳时校验；不会因总预算暂时低于已用分而丢掉整份课表。真实E2E覆盖100／10改成5／10并刷新，22学分7门及错误输入仍保留。结构损坏缓存保留原文与recovery备份，明确继续前不覆写；未知课程引用逐项显示并保留，不能被静默略过后当成完整课表采纳或导出ICS。
 
 生产产物单独以4173端口运行验证：实际Chromium载入245条官方课程、渲染155个选修教学班、载入历史基线后显示22学分7门，页面错误为0。证据为 `artifacts/production-smoke.json` 和 `artifacts/production-preview.png`。5173试用服务未停止或替换。
+
+
+## ENGINEER-02 界面更新
+
+按DESIGN v0.2实现Course Index方向：墨黑紧凑页头、暖纸工作面、衬线课程标题、等宽编号与时间、整行课程目录。删除营销hero与重复任务导语，条件工具区采用分隔线，减少统一圆角卡片和满屏色签。未修改core.ts、types.ts、ai.ts、课程数据、依赖或业务规则。
+
+- 课程默认显示20条，可主动再显示20条；搜索及筛选改变后重置展示数量，保留原筛选和排序语义。
+- 比较区移至当前结果前。课程讨论改为页头按需打开的原生dialog，Escape关闭并回到打开按钮；打开讨论不自动下载或启动模型。
+- 390px条件区默认收起，摘要保留待核／已确认与时段数，明确编辑入口。确认条件及生成候选后自动返回工作区；不用平滑滚动依赖，兼容减少动态效果。
+- 课程未知资格、先修和缺评价仍在折叠行可见，课程事实和来源在展开区域保留。关键操作常显，不依赖hover。
+- 日历保持按日有序日程语义，不伪造按时刻比例的时间轴。讨论、明确采纳、撤回、预算、备份恢复等原行为保留。
+
+实际验证：`npm run test` 15项、`npm run test:e2e` 8项、`npm run build`通过。新增浏览器用例覆盖20→40展示、长878标题、比较区可达、讨论dialog及Escape焦点恢复、手机默认折叠与确认／生成后回结果。已有坏缓存、未知ID、临时非法预算刷新保留、超额禁保存、无GPU真实反馈等断言没有删除。
+
+1440×1000首条课程y=425.97px，390×844首条y=561.63px；document宽度分别1440和390，pageerror均为0。4173生产预览实际加载245课程和首批20行，title为Course index，pageerror=0。证据与源码指纹见[engineer-evidence.json](../artifacts/redesign/engineer-evidence.json)。
+
+视觉证据：[桌面目录](../artifacts/redesign/engineer-desktop.png)、[手机目录](../artifacts/redesign/engineer-mobile.png)、[S2日程](../artifacts/redesign/engineer-plan.png)、[修改差异](../artifacts/redesign/engineer-diff.png)、[课程讨论](../artifacts/redesign/engineer-discussion.png)、[手机长课程名](../artifacts/redesign/engineer-mobile-long-title.png)。这是实施者实际运行证据，独立设计与批判复核由相应责任者另行记录。
+
+S1／S2补充复验：在既有历史方案浏览器用例中新增selected类及computed背景断言，切到S2后等待其墨色选中背景、S1透明背景，再检查651-02并继续原采纳撤回流程；该相关用例通过。engineer-plan.png已按这个稳定状态重拍，避免120ms颜色过渡瞬态被误读为反向高亮。App与styles未作额外修改。

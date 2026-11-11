@@ -20,6 +20,10 @@ npm run preview
 
 本环境npm默认缓存不可写时可用 `npm ci --cache /tmp/som-npm-cache`。浏览器测试默认复用 `/usr/bin/chromium`，其他环境的调整见 [实施说明](docs/IMPLEMENTATION.md)。构建产物在dist，使用相对资源路径。
 
+## 当前界面
+
+本轮改为学术目录方向：墨黑页头、纸白工作面、整行课程索引；手机条件默认收起，课程结果渐进展开。实际预览：[桌面](artifacts/redesign/manager-desktop.png)、[手机](artifacts/redesign/manager-mobile.png)。设计与独立批判结论见DESIGN-REVIEW和REVIEW。
+
 ## 可试用的核心路径
 
 1. 浏览2027春官方目录，或恢复本人历史案例。
