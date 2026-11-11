@@ -1,0 +1,193 @@
+{
+  "metadata": {
+    "schemaVersion": 1,
+    "retrievedAt": "2026-11-11T12:58:48.281846+00:00",
+    "reviewCount": 6,
+    "searchedSources": [
+      "public student writing",
+      "official SOM alumni/student interviews",
+      "Coursicle review directory",
+      "Yale OCE"
+    ],
+    "limitations": [
+      "No official OCE evaluation scores were accessible without authentication.",
+      "No review was fabricated for new courses; absent reviews remain absent.",
+      "Published testimonials are selective individual evidence, not a representative survey.",
+      "No evidence found sufficient to establish that Product Management is generally easy or low value."
+    ],
+    "targetedSearch": {
+      "checkedAt": "2026-11-11T13:06:12.270328+00:00",
+      "courseCodes": [
+        "MGT 651",
+        "MGT 878",
+        "MGT 652",
+        "MGT 846",
+        "MGT 901",
+        "MGT 861"
+      ],
+      "result": "No additional directly readable first-person review could be confidently attributed to these current course identities. Existing six records retained.",
+      "searchedBy": [
+        "current course title plus Yale plus review/student",
+        "course number plus Yale plus review",
+        "current instructor plus course title"
+      ],
+      "rejectedMatches": [
+        {
+          "url": "https://som.yale.edu/profile/faculty/sang-kim",
+          "reason": "Faculty discussion of new MGT 878; not a student review."
+        },
+        {
+          "url": "https://som.yale.edu/profile/professor-jonathan-e-ingersoll-jr",
+          "reason": "Alumnus praise of an older Ingersoll financial-engineering class; not attributable to current MGT 901 with Majd/Rosenbluth."
+        },
+        {
+          "url": "https://som.yale.edu/profile/eddie-thai-12",
+          "reason": "Older private-equity/venture-capital class with David Cromwell; not Robert Davis current MGT 846."
+        },
+        {
+          "url": "https://coursetable.com/catalog?course-modal=202401-28879",
+          "reason": "Only JavaScript application shell readable; no evaluation text obtained."
+        }
+      ]
+    }
+  },
+  "reviews": [
+    {
+      "term": null,
+      "rating": null,
+      "retrievedAt": "2026-11-11T12:58:48.281846+00:00",
+      "independentSampleSize": 1,
+      "id": "ash-2025-mgt554",
+      "courseCode": "MGT 554",
+      "title": "AI for Business Decisions 学生体验",
+      "sourceUrl": "https://fraxinus1098.substack.com/p/250k-later-my-slightly-obsessive",
+      "sourceType": "independent_student_first_person",
+      "author": "Ash Duong",
+      "publishedAt": "2025-05-10",
+      "faculty": [
+        "Tong Wang"
+      ],
+      "summary": "作者认为课程偏实用、面向商业问题；部分内容不易跟上。其当时版本包含随堂短测、作业和期末团队项目。",
+      "workload": {
+        "value": 3,
+        "scale": 5,
+        "meaning": "作者个人Lift评分，不是质量评分或每周工时"
+      },
+      "limitations": [
+        "单一学生体验；具体修读学期未确认。",
+        "不得推断2027版作业、难度或工作量不变。"
+      ]
+    },
+    {
+      "term": null,
+      "rating": null,
+      "retrievedAt": "2026-11-11T12:58:48.281846+00:00",
+      "independentSampleSize": 1,
+      "id": "ash-2025-mgt531",
+      "courseCode": "MGT 531",
+      "title": "Interpersonal Dynamics 学生体验",
+      "sourceUrl": "https://fraxinus1098.substack.com/p/250k-later-my-slightly-obsessive",
+      "sourceType": "independent_student_first_person",
+      "author": "Ash Duong",
+      "publishedAt": "2025-05-10",
+      "faculty": [
+        "David Tate"
+      ],
+      "summary": "作者强调收获取决于投入、开放程度与学习目标，并认为情感和时间投入较高。",
+      "workload": {
+        "value": 5,
+        "scale": 5,
+        "meaning": "作者个人Lift评分，不是质量评分或每周工时"
+      },
+      "limitations": [
+        "单一学生体验；不是心理治疗课程的承诺。",
+        "不同教师、学期和个人投入可能产生不同体验。"
+      ]
+    },
+    {
+      "term": null,
+      "rating": null,
+      "retrievedAt": "2026-11-11T12:58:48.281846+00:00",
+      "independentSampleSize": 1,
+      "id": "andrea-2025-mgt561",
+      "courseCode": "MGT 561",
+      "title": "校友谈 Product Management 的工作应用",
+      "sourceUrl": "https://som.yale.edu/story/2025/som-women-supply-chain-10-questions-5-experts",
+      "sourceType": "school_published_alumni_first_person",
+      "author": "Andrea Pacheco, MAM 2022",
+      "publishedAt": "2025-01-14",
+      "faculty": [
+        "Alex Burnap"
+      ],
+      "summary": "校友表示课程帮助她用KPI衡量产品行为与项目表现，并在工作中应用。",
+      "workload": null,
+      "limitations": [
+        "学校发布的正向校友访谈，存在选择与宣传偏差。",
+        "未提供作业难度、评分、工作量或全班评价；不能证明课程普遍适合所有人。"
+      ]
+    },
+    {
+      "term": null,
+      "rating": null,
+      "retrievedAt": "2026-11-11T12:58:48.281846+00:00",
+      "independentSampleSize": 1,
+      "id": "erin-2024-mgt531",
+      "courseCode": "MGT 531",
+      "title": "Interpersonal and Group Dynamics 校友访谈",
+      "sourceUrl": "https://poetsandquants.com/2024/08/24/2024-mba-to-watch-erin-manning-yale-school-of-management/",
+      "sourceType": "published_alumni_first_person_interview",
+      "author": "Erin Manning, MBA 2024",
+      "publishedAt": "2024-08-24",
+      "faculty": [
+        "Heidi Brooks"
+      ],
+      "summary": "受访校友将其列为最喜欢的课程，强调课堂与Lab中的个人参与，以及把学习带入日常互动。",
+      "workload": null,
+      "limitations": [
+        "单一受访者，教师为Heidi Brooks。",
+        "不能作为David Tate当前班级的直接教学评价，也不能推断低工作量。"
+      ]
+    },
+    {
+      "term": null,
+      "rating": null,
+      "retrievedAt": "2026-11-11T12:58:48.281846+00:00",
+      "independentSampleSize": 1,
+      "id": "edirin-2019-mgt531",
+      "courseCode": "MGT 531",
+      "title": "Interpersonal Dynamics 校友喜好",
+      "sourceUrl": "https://som.yale.edu/profile/edirin-aghoghovbia-19",
+      "sourceType": "school_published_alumni_profile",
+      "author": "Edirin Aghoghovbia, MAM 2019",
+      "publishedAt": null,
+      "faculty": [],
+      "summary": "校友档案将Interpersonal Dynamics列为最喜欢的SOM课程。",
+      "workload": null,
+      "limitations": [
+        "只有喜好陈述，没有具体教学、作业或投入证据。",
+        "历史个人体验，不代表2027课程质量或多数学生。"
+      ]
+    },
+    {
+      "term": null,
+      "rating": null,
+      "retrievedAt": "2026-11-11T12:58:48.281846+00:00",
+      "independentSampleSize": 1,
+      "id": "luisa-2025-mgt561-context",
+      "courseCode": "MGT 561",
+      "title": "Product Management 助教工作背景",
+      "sourceUrl": "https://som.yale.edu/story/2025/day-life-luisa-locatelli-25",
+      "sourceType": "school_published_student_ta_context",
+      "author": "Luisa Locatelli, MBA 2025",
+      "publishedAt": "2025-06-23",
+      "faculty": [
+        "Alex Burnap"
+      ],
+      "summary": "有产品经理背景的学生介绍担任该课助教，协助课堂、考勤、批改和教学事务。",
+      "workload": null,
+      "limitations": [
+        "这是助教角色描述，不是课程质量评分或独立学生选课推荐。"
+      ]
+    }
+  ]
+}

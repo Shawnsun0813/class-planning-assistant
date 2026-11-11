@@ -1,0 +1,15 @@
+{
+  "status": "passed_targeted_retest",
+  "checks": [
+    "P1 fixed: 22 credits / 7 courses and invalid budget5/used10 survive reload, execution still blocked",
+    "related import regression: malformed structure rejected without changing editable draft",
+    "corrupt cache original preserved byte-for-byte and downloadable; edits cannot overwrite before consent",
+    "valid recovery import preserved old cache until explicit continue; recovery original remains",
+    "P2 fixed: unresolved id retained/exported, partial totals identified, adoption/ICS blocked"
+  ],
+  "pageErrors": [],
+  "sourceFingerprints": {
+    "src/core.ts": "1abc6648de074811c54f7ff7a9027074f166ebabfa95298cf8e44d8d47d5d77f",
+    "src/App.tsx": "32b4cb684924483a31ec54234513365806f8e64bc1ae32a132a8840b77e2b80e"
+  }
+}

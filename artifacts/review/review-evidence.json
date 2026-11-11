@@ -1,0 +1,44 @@
+{
+  "status": "passed_with_stated_limitations",
+  "checks": [
+    "real catalog loads without page errors",
+    "historical 22-credit baseline and unknown retreat retained",
+    "18-credit branch requires explicit adoption and undo restores baseline",
+    "S2 651-02 and 878-01 conflict blocks adoption",
+    "new651 no automatic points and overspend rejected",
+    "malformed backup rejected and preexisting state preserved",
+    "separate local profile inputs and switch-back preservation",
+    "WebGPU unavailable path explicit, no paid fallback",
+    "mobile calendar rendered; horizontal overflow=false"
+  ],
+  "pageErrors": [],
+  "blockingFindings": [
+    {
+      "id": "R4",
+      "severity": "P1",
+      "behavior": "Temporary invalid budget causes all existing profiles/plans to be discarded after reload",
+      "repro": [
+        "Load historical 22-credit plan",
+        "Set total budget100 and used10",
+        "Change total to5; UI displays validation error",
+        "Reload page"
+      ],
+      "observedBefore": {
+        "credits": 22,
+        "courses": 7
+      },
+      "observedAfter": {
+        "credits": 0,
+        "courses": 0
+      },
+      "evidence": "persistence-loss.png",
+      "status": "resolved_by_targeted_retest"
+    }
+  ],
+  "limitations": [
+    "Real WebLLM inference not verified: environment has no WebGPU adapter",
+    "Ordinary bidding rules and predictive effectiveness not verified"
+  ],
+  "targetedRetest": "retest-evidence.json",
+  "blockingFindingsRemaining": []
+}

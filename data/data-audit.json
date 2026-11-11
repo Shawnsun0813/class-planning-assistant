@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "generatedFrom": "user_uploaded_workbooks",
+  "validation": "passed",
+  "datasets": [
+    {
+      "path": "bidding-history.json",
+      "recordCount": 2714,
+      "source": {
+        "file": "Auction-Bidding-History.xlsx",
+        "sha256": "e3ab444d95dc1d89d4f01b659a293db002b9502f4db92a1b357d334c83c323f6",
+        "provenance": "user_uploaded_workbook",
+        "containsStudentIdentifiers": false
+      }
+    },
+    {
+      "path": "enrollment-history.json",
+      "recordCount": 3658,
+      "source": {
+        "file": "Enrollment-History.xls",
+        "sha256": "5e3711e59c2570c3d7c23da71d8e301d730dbbde56288397c45a774558dece6d",
+        "provenance": "user_uploaded_workbook",
+        "containsStudentIdentifiers": false
+      }
+    },
+    {
+      "path": "exchange-history.json",
+      "recordCount": 7,
+      "source": {
+        "file": "International-Exchange-Bidding-History.xlsx",
+        "sha256": "71d9334bf7cf3a8d00749a995cff75cd6a6c0f13cf2522d0749225169771e148",
+        "provenance": "user_uploaded_workbook",
+        "containsStudentIdentifiers": false
+      }
+    },
+    {
+      "path": "nonsom-history.json",
+      "recordCount": 1071,
+      "source": {
+        "file": "SOM Students in NonSOM Courses for Portal.xlsx",
+        "sha256": "8398b54744e80c72959ed6aec55a4c90832d9f59344e70c92bfa48add8d33a97",
+        "provenance": "user_uploaded_workbook",
+        "containsStudentIdentifiers": false
+      }
+    }
+  ],
+  "auctionAnomalies": {
+    "termLabels": [
+      "Fall 2000",
+      "Spring 2000"
+    ],
+    "duplicateRows": 8
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "url": "http://localhost:4173/",
+  "production": true,
+  "catalogCourses": 245,
+  "renderedElectiveSections": 155,
+  "planStats": "22\n方案学分\n7\n门课程\n10\n待核事项",
+  "errors": [],
+  "screenshot": "artifacts/production-preview.png"
+}

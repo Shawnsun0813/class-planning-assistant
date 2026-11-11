@@ -1,0 +1,14 @@
+export type Session='FULL'|'S1'|'S2';
+export type Meeting={days:number[];start:string;end:string};
+export type Course={id:string;code:string;section:string;title:string;termCode:string;session:Session;startDate:string|null;endDate:string|null;credits:number|null;faculty:string[];categories:string[];meetings:Meeting[];daysTimes:string;capacity:number|null;bidAllowed:boolean|null;bidOrPermission:string|null;prerequisite:string|null;programTags:string[];syllabusUrl:string|null;isNew:boolean;eligibilityVerified:boolean;sourceUrl:string;summary:string|null};
+export type Catalog={metadata:{retrievedAt:string;sourceUrl:string;termLabel:string;recordCount:number;timezone:string;limitations:string[]};courses:Course[]};
+export type BidRecord={id:string;term:string;season:string;year:number;courseCode:string;courseNumber:string;section:string;title:string;rounds:{round:number;label:string;value:number|null;metric:string}[];qualityFlags:string[];sourceSheet:string;sourceRow:number};
+export type Review={id:string;courseCode:string;title:string;sourceUrl:string;sourceType:string;author:string;publishedAt:string;term:string|null;summary:string;limitations:string[]};
+export type TimeRule={id:string;day:number;start:string;end:string;session:Session;confirmed:boolean};
+export type TimeException={courseId:string;ruleId:string;session:Session};
+export type OtherEvent={id:string;title:string;day:number;start:string;end:string;session:Session;known:boolean};
+export type Preferences={career:string;minCredits:number;maxCredits:number;confirmed:boolean;rules:TimeRule[];exceptions:TimeException[];events:OtherEvent[];locked:string[];excluded:string[];eligibility:string[];budget:number;used:number};
+export type Plan={courseIds:string[];status:'historical'|'discussion'|'confirmed';name:string;updatedAt:string};
+export type Profile={id:string;name:string;preferences:Preferences;plan:Plan;draft:Plan|null;previous:Plan|null;bids:Record<string,number>;budgetConfirmed:boolean;notes:string[]};
+export type Store={schemaVersion:1;activeId:string;profiles:Profile[]};
+export type Issue={kind:'conflict'|'unknown';text:string;courseIds:string[]};
