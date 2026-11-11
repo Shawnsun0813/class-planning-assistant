@@ -54,3 +54,11 @@ DESIGN-02、ENGINEER-02、REVIEW-DESIGN-02已完成。目录行替代原卡片�
 独立批判复核确认原讨论采纳撤回、超额禁保存、临时非法预算刷新保留、资格与特殊活动未知状态均无退化。主Agent亦实际查看桌面、手机与课表并核对源码指纹。S1／S2截图曾截到CSS过渡瞬态，经等待真实选中状态后独立复验正确，未改业务逻辑。
 
 本轮截图与运行证据位于artifacts/redesign，旧artifacts/design-review保留为前版记录。完整审美认可仍由本人体验决定；模型、数据资格及部署范围不因UI改版获得额外认证。
+
+## GitHub Pages 部署
+
+用户已明确授权当前项目部署到GitHub Pages并要求多Agent审核。DEPLOY-01负责配置与子路径验证，REVIEW-DEPLOY-01独立核配置与实际线上候选，主Agent统一外部写入。
+
+当前已完成配置审核：官方Action固定SHA、构建仅读权限、部署仅pages写与OIDC、只上传dist、锁依赖与核心检查。GitHub连接可推代码，但启用Pages的API POST返回403 Resource not accessible by integration；当前Pages GET为404。共享浏览器未登录GitHub，设置页显示404/Sign in，未执行设置变更。此为平台连接权限限制，非用户拒绝授权。
+
+仍需启用仓库Pages的GitHub Actions源，再实际发布并由独立评审访问返回的HTTPS网址。尚未取得成功部署或线上验收，不提供猜测的可用网址。

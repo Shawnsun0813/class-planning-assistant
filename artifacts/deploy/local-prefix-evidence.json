@@ -1,0 +1,64 @@
+{
+  "status": "passed_local_project_prefix",
+  "base": "./",
+  "path": "/class-planning-assistant/",
+  "checks": [
+    "project-prefix initial HTML, module, CSS and six runtime JSON snapshots load",
+    "historical 22/7, S2 section schedule and explicit 18-credit branch adopt/undo retain behavior",
+    "over-budget draft stays editable and cannot be saved",
+    "raw workbook, audit and repository-only files are absent from static artifact",
+    "390px independent browser context, collapsed conditions, long-title search and no horizontal overflow"
+  ],
+  "catalogCount": 245,
+  "runtimeDataFiles": [
+    "bidding-history.json",
+    "catalog.json",
+    "enrollment-history.json",
+    "exchange-history.json",
+    "nonsom-history.json",
+    "reviews.json"
+  ],
+  "rawWorkbookCount": 0,
+  "assetAndDataResponses": [
+    {
+      "url": "http://127.0.0.1:40775/class-planning-assistant/assets/index-BLY-4QPd.css",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:40775/class-planning-assistant/assets/index-Dy7Bx_Fj.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:40775/class-planning-assistant/data/bidding-history.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:40775/class-planning-assistant/data/catalog.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:40775/class-planning-assistant/data/nonsom-history.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:40775/class-planning-assistant/data/reviews.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:40775/class-planning-assistant/data/enrollment-history.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:40775/class-planning-assistant/data/exchange-history.json",
+      "status": 200
+    }
+  ],
+  "requestFailures": [],
+  "pageErrors": [],
+  "sourceFingerprints": {
+    ".github/workflows/deploy.yml": "2e26386065b334ba4915894ae1704932bea299f8fcc0ee2942a9e307cad04cee",
+    "vite.config.ts": "fbe987ed3cafb4100551c7cfaed050abb5f4b8118999d727f507ef3f9b6da094",
+    "src/App.tsx": "33278dfaff1295d4701251631a80008c63acf923f5f9387b090a1b3e8c8eb439",
+    "src/styles.css": "0549bc603b175b71ffe80a6073cfd0719ca5177184e08aa9fd7a7bb67c85a4ed"
+  }
+}
