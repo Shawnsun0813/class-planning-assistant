@@ -26,7 +26,7 @@ npm run preview
 
 ## 当前界面
 
-本轮改为学术目录方向：墨黑页头、纸白工作面、整行课程索引；手机条件默认收起，课程结果渐进展开。实际预览：[桌面](artifacts/redesign/manager-desktop.png)、[手机](artifacts/redesign/manager-mobile.png)。设计与独立批判结论见DESIGN-REVIEW和REVIEW。
+沿用学术目录方向：墨黑页头、纸白工作面、整行课程索引；手机条件默认收起，课程结果渐进展开。本轮资料修复实际预览：[桌面简介全文](artifacts/audit/design-desktop-523-expanded.png)、[手机简介全文](artifacts/audit/design-mobile-523-full.png)。[全面复核](docs/FULL-AUDIT.md)记录源字段与真实用户路径检查，设计结论见DESIGN-REVIEW。
 
 ## 可试用的核心路径
 
@@ -41,10 +41,11 @@ npm run preview
 
 ## 已接入资料
 
-- 官方2027春目录：245个教学班、145个课程号；161条标可竞价、84条不可竞价。36条常规课时缺失或歧义。
+- 官方2027春目录：245个教学班、145个课程号；161条标可竞价、84条不可竞价。211条保留官方英文简介，34条源目录未提供；最新快照35条常规课时缺失或歧义。
 - 用户上传4份原始Excel：[data/raw](data/raw/)。普通竞价2714条、报名3658条、跨院1071条、交换7条，分开保存与使用。
-- 公开课程体验或背景材料6条，附原始链接与局限，不是6个独立课程评价样本，也没有伪造新课评分。
+- 公开材料8条，覆盖5个课程号：同一作者4条课程体验、2条校友体验、1条个人喜好和1条助教背景；没有正式校内评价分数。每门课程显示材料类型、适用范围及评价站点访问状态，外链不算数据接通。
 - 刷新目录：`python3 scripts/fetch_catalog.py --term 202701`；历史处理及验证见 [DATA](docs/DATA.md)。
+- 评价材料与来源登记校验：`python3 scripts/review_sources.py validate`。SOM内部评价入口需Yale登录，目前未取得正式记录；不能用Yale College评价覆盖代替SOM覆盖。具体证据与限制见 [评价来源复核](docs/REVIEW-SOURCES.md)。
 
 ## 免费模型与限制
 

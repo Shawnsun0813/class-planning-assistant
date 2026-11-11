@@ -1,0 +1,26 @@
+{
+  "url": "http://127.0.0.1:4173/",
+  "production": true,
+  "catalogRecords": 245,
+  "descriptionCoverage": {
+    "provided": 211,
+    "missing": 34,
+    "method": "official courseDescription normalized to plain text; preview is a direct extract"
+  },
+  "materialCount": 8,
+  "courseCoverage": 5,
+  "sourceCount": 9,
+  "authenticatedEvaluationCount": 0,
+  "firstCourseY": 425.96875,
+  "descriptionLength": 959,
+  "historicalTeacherWarningCount": 1,
+  "mobileHorizontalOverflow": false,
+  "pageErrors": [],
+  "tests": {
+    "python": 11,
+    "typescript": 22,
+    "browser": 10,
+    "build": "passed"
+  },
+  "indexSha256": "0f45de1251178ba1a8f290e45bb0cf9c2f0dbe1bf8aaf3bbb97b65d7b1bbd880"
+}

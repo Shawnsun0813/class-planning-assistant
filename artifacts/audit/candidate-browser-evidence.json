@@ -1,0 +1,39 @@
+{
+  "status": "passed_local_candidate",
+  "checks": [
+    "development runtime reads all seven exact candidate JSON snapshots",
+    "user screenshot MGT523 official full text exactly matches JSON, readable official directory and explicitly historical syllabus reachable",
+    "683 complete literal Q&A and important course-specific 50-point/ENV terms preserved",
+    "nine source states displayed in Chinese; formal SOM evaluations0, materials8, identities5 and211/245 coverage visible",
+    "531 shows Brooks historical material as different from current Tate and distinguishes preference/background",
+    "new651 missing review is project coverage gap, not absence claim; old same-code legal-course bids excluded",
+    "genuine missing description remains missing without fabricated summary",
+    "description-only phrase searches real course rather than title-only fallback",
+    "history remains22/7 unconfirmed; S2 includes651 twice and retreat unknown retained",
+    "confirmed Thursday hard constraint blocks652; explicit652/S1 exception permits matching candidate without globally ignoring constraints",
+    "discussion18 requires explicit adoption and undo restores22",
+    "latest925 true Tuesday time and MMSAM tag visible; actual901 conflict blocks adoption",
+    "same-roundPM263; new651no invented allocation; invalid5/10 survives reload and cannot save",
+    "malformed backup rejected with original editable state preserved",
+    "second local profile starts empty and original plan remains after switch-back",
+    "independent production4173 serves all7 exact snapshots;390px935 full text/review state works without overflow"
+  ],
+  "pageErrors": [],
+  "failedRequests": [],
+  "sourceFingerprints": {
+    "src/App.tsx": "b9965eb3f53da1201c6d488b36908397b432dc7ca6b20cb9165d1fa8876ad95b",
+    "src/core.ts": "7c0af6793dbd105e7c98f3065f99800cfb6325c4e3c50307bbe64a952cab93cd",
+    "src/evidence.ts": "c8d589e0b4008ee2525c941203ec2dd2ccb1b0a1a38fb941d406df0b33505fbf",
+    "src/CourseEvidence.tsx": "71c1ba44d3d5a3011ed7ddf7a4705ed0195d38e987e7ce2be6c2c910f9a587de",
+    "src/types.ts": "adf551758ea2047fe6381a3da8b53afc9a1ab0f99edf0b5c571bd613dc000c62",
+    "data/catalog.json": "6ea4d49b9d5e936d016103a67454f212d7d1e5a6544425cd3a56141e6aa2c241",
+    "data/reviews.json": "31d1673fbe24f862bec353986527882eff3b74869c89f1165373c41a92f77221",
+    "data/review-sources.json": "4f12bfbfc15f5d2efddd6b59086eacc9e77021e5aea727f7772390e66da3dc36",
+    "scripts/fetch_catalog.py": "0235ddf46bb6500bb8d878d8e317b641eb0dc4b24a3827cb64fd6af0bb4448ad",
+    "scripts/review_sources.py": "c9b2a9b969c48995a8c604e9565536edc23dc5212fa8d93c829f93aedab0d6a4"
+  },
+  "developerSourceHash": "62f1b863fe49c141a2bc8ca9a938e85882d6cb0438de510f2a2c8aa629425db1",
+  "devUrl": "http://127.0.0.1:5173/",
+  "productionPreviewUrl": "http://127.0.0.1:4173/",
+  "harnessNote": "Initial exact select-label locator did not match composite label; corrected to visible label-scoped select. No application change."
+}

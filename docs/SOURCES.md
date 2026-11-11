@@ -8,17 +8,17 @@
 
 官方读取端点：[Spring 2027 课程数据](https://som.yale.edu/courses/session-items/202701)。以 POST 和空 JSON 对象请求，返回 HTTP 200、`coursesByTermAndType.post`、245 条不同 `courseID` 的记录。此 POST 是官方公开课程目录的数据读取，不是选课或竞价提交。响应时间戳保存在 JSON metadata，不能将其等同于实时名额。
 
-已归一化课程号、section、课程名、学分、教师、类别、学段、开始与结束日期、常规星期与时间、容量、竞价许可、先修、项目标签和大纲链接。竞价许可按原始 `allowBid` 去空格、忽略大小写解析：245条中161条为true、84条为false、0条未知；已修正17条小写no曾被错误保留为null的问题。未复制教师邮箱及人员内部ID，也未镜像整份课程描述或登录后大纲。
+已归一化课程号、section、课程名、学分、教师、类别、学段、开始与结束日期、常规星期与时间、容量、竞价许可、先修、项目标签和大纲链接。竞价许可按原始 `allowBid` 去空格、忽略大小写解析：245条中161条为true、84条为false、0条未知；已修正17条小写no曾被错误保留为null的问题。未复制教师邮箱及人员内部ID。本轮已修复courseDescription漏导出：211条完整官方正文保留，34条源目录未提供。旧归一化只有8个课程号的编辑概述，不能据此认定其余官方简介缺失；登录后大纲仍未读取。
 
 重要限制：
 
 - 245 条包括 PhD、core、EMBA 和项目专属课程，不能全部推荐为所有 SOM 同学都可选。`programTags` 是官方课程类型标签，不是完整个人资格判定。
 - `eligibilityVerified` 均为 false：尚未核对具体同学的项目、先修和报名资格。可生成明确标为待核资格的候选方案，不能宣称已验证可报名。
 - `capacity` 是上限，不是剩余名额；`availableSeats` 保留 null。
-- 35 条未列常规课时；另1条星期写为 `S`，不能确定周六或周日，故不猜测。36条 `meetings` 留空，保留原始显示及未知状态。
+- 最新快照34条未列常规课时；另1条星期写为 `S`，不能确定周六或周日，故不猜测。共35条 `meetings` 留空，保留原始显示及未知状态。此前36条的快照已因925补充时刻而更新。
 - 常规时间不覆盖节假日、retreat、小组、Lab或其他特殊承诺。`FULL` 会与 S1、S2 都产生相关约束，但具体上课日仍需校历和课程要求。
 - 大纲链接存在不代表内容已读取；Canvas、SharePoint及个人评价系统可能需要登录。
-- 部分课程 summary 是基于官方课程内容的简短编辑性概述，已用 `summaryType` 标记，不是整份当期大纲或学生评价。
+- summary为官方正文摘录，标记为 `official_description_excerpt`；页面可展开完整英文简介，不作未经核实的机器翻译。课程简介不等于大纲或学生评价。
 
 ## 首位用户案例的核对结果
 
@@ -30,7 +30,7 @@
 - MGT 878：S2，01班为周二／四10:05–11:25。
 - MGT 652：S1，01班为周二／四16:10–17:30。若周四16:00限制被用户确认，该班确实违反该条件。
 - MGT 901：S2，周二16:10–19:10，官方明确列出 MGT 900 为严格先修。
-- MGT 925：S2，MMS AM项目标签，但未公布常规课时，不可编进已验证无冲突课表。
+- MGT 925：最新官方快照已给出S2周二16:10–19:10、EVANS4200，MMS AM项目标签。该时段与901重叠；个人资格仍待核。此前“未公布常规课时”为旧快照状态。
 - MGT 935：S2，周三16:10–19:10，项目标签 MMS AM 和 elective。与531-02的常规周三时间重叠；仍需核对个人参与资格。
 
 ## 普通课程竞价规则
@@ -53,17 +53,17 @@
 
 ## 网上课程体验
 
-`data/reviews.json` 保存6条有链接的材料，覆盖554、531、561。只保留简短转述，不复制长文，不虚构星级或全班评分。
+`data/reviews.json`现保存8条有链接材料，覆盖554、531、561、858、623：4条独立体验来自同一作者、2条实质校友访谈、1条喜好档案和1条TA背景。正式SOM评价仍为0条。只保留简短转述，不复制长文，不虚构星级或全班评分。
 
 | 来源 | 可支持的内容 | 限制 |
 | --- | --- | --- |
-| [Ash Duong 的独立学生体验](https://fraxinus1098.substack.com/p/250k-later-my-slightly-obsessive)（2025年5月10日） | 554的实用商业取向及当时短测、作业、团队项目；531的个人与情绪投入 | 同一作者两个课程条目，不是两个独立样本；Lift是其个人投入评分，不是教学质量评分或工时 |
+| [Ash Duong 的独立学生体验](https://fraxinus1098.substack.com/p/250k-later-my-slightly-obsessive)（2025年5月10日） | 554的实用商业取向、531的个人投入，以及858数据库基础、623跨行业课堂参与体验 | 同一作者四门课程条目，不是四名独立受访者；Lift是其个人投入评分，不是教学质量评分或工时 |
 | [SOM供应链校友访谈](https://som.yale.edu/story/2025/som-women-supply-chain-10-questions-5-experts)（2025年1月14日） | Andrea Pacheco认为PM中的KPI度量可用于工作 | 学校发布的选择性正向访谈，不证明普遍质量或作业难度 |
 | [Erin Manning校友访谈](https://poetsandquants.com/2024/08/24/2024-mba-to-watch-erin-manning-yale-school-of-management/)（2024年8月24日） | 其对Heidi Brooks所授IPD的积极体验及实践性质 | 单一校友，不能直接评价David Tate的当前班级 |
 | [Edirin Aghoghovbia校友档案](https://som.yale.edu/profile/edirin-aghoghovbia-19) | 将Interpersonal列为个人最喜欢课程 | 只有喜好，没有作业、评分或投入证据 |
 | [Luisa Locatelli的在校生活记录](https://som.yale.edu/story/2025/day-life-luisa-locatelli-25)（2025年6月23日） | PM助教角色与教学背景 | 只是助教背景，不是独立学生课程质量评价 |
 
-[Yale课程评价入口](https://students.yale.edu/oce-submissions)显示CAS认证；未获得正式OCE评分或学生评价全集。[Coursicle的PM条目](https://www.coursicle.com/yale/courses/MGT/561/)可见课程目录，而教师评价页提示下载App；不能把“存在评价入口”当成已读评价。新课没有可核实评价时保持缺失，不自动降分排除。
+[Yale OCE学生查看入口](https://oce.app.yale.edu/ocedashboard/studentViewer)实际跳转CAS；旧oce-submissions链接为提交入口，不能作为学生查看入口的替代。未获得正式OCE评分或学生评价全集，且不默认其覆盖SOM。[Coursicle的PM条目](https://www.coursicle.com/yale/courses/MGT/561/)可见课程目录，而评价深链未读取到实际评语；不能把“存在评价入口”当成已读评价。新课没有可核实评价时保持缺失，不自动降分排除。
 
 ## 六门重点课程的补充评价检索
 
@@ -78,7 +78,7 @@
 | MGT 901 Topics in Financial Engineering | [Jonathan Ingersoll教师介绍](https://som.yale.edu/profile/professor-jonathan-e-ingersoll-jr)含2014校友对早期金融工程课的好评，但无法归属当前Majd／Rosenbluth的901，故不添加为本课评价 |
 | MGT 861 Foundations of Pricing Strategy | 未取得当前课的一手学生体验；Ghili的研究文章、其他课程及别校定价课不作替代 |
 
-现有reviews仍为6条，未为了增加覆盖率而创建匿名评分、猜测评价或转移旧教师好评。检索范围与排除链接也已保存在reviews metadata。
+六门重点课程的本次检索没有新增直接评价；其余真实课程体验补入后reviews为8条，未创建匿名评分、猜测评价或转移旧教师好评。检索范围与排除链接也已保存在reviews metadata。
 
 ## 参考工具与采用边界
 
@@ -89,7 +89,13 @@
 ## 数据消费检查
 
 - `data/catalog.json`：metadata与245条courses；id包含课程号、section及term，meeting days以1至7表示星期，时间按纽黑文时区解释。只为能明确解析的普通星期生成meeting。
-- `data/reviews.json`：metadata与6条reviews；每条包含来源类型、作者、日期、教师、局限。`rating`一律null；作者个人workload评分不可当星级质量评分。
+- `data/reviews.json`：metadata与8条reviews；每条包含来源类型、作者、日期、教师、局限。`rating`一律null；作者个人workload评分不可当星级质量评分。
 - 待实施者核查：默认候选过滤、真实数据匹配、先修提示、未知课时处理、区分课程容量和剩余名额、避免将不同教师评价或课程换号直接混同。
 
 当前调查足够支撑课程浏览、证据展示和候选排课的首版实现。普通竞价规则与官方OCE仍是明确依赖，不通过继续泛搜掩盖缺口。
+
+## 评价接入全面复核
+
+最新完整结论、来源矩阵、可复现CLI与仍待认证的SOM内部评价交接见[REVIEW-SOURCES.md](REVIEW-SOURCES.md)。正式SOM汇总评价由官方课程政策确认在内部网站，myPortal实际跳CAS。Yale OCE查看入口也需认证，但不能默认其YC／GSAS覆盖等同SOM；CourseTable当前抓取器明确筛YC／Summer，不能作为普通SOM评价已接通的证明。
+
+现新增来源registry覆盖全部245教学班，区分入口与已读记录。8份材料仅覆盖5课，其中TA／喜好另列；已核历史教师差异，原文读取检查保留真实状态。只增加链接不能算网站评价接入完成。

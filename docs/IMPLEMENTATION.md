@@ -81,3 +81,17 @@ npm run build
 视觉证据：[桌面目录](../artifacts/redesign/engineer-desktop.png)、[手机目录](../artifacts/redesign/engineer-mobile.png)、[S2日程](../artifacts/redesign/engineer-plan.png)、[修改差异](../artifacts/redesign/engineer-diff.png)、[课程讨论](../artifacts/redesign/engineer-discussion.png)、[手机长课程名](../artifacts/redesign/engineer-mobile-long-title.png)。这是实施者实际运行证据，独立设计与批判复核由相应责任者另行记录。
 
 S1／S2补充复验：在既有历史方案浏览器用例中新增selected类及computed背景断言，切到S2后等待其墨色选中背景、S1透明背景，再检查651-02并继续原采纳撤回流程；该相关用例通过。engineer-plan.png已按这个稳定状态重拍，避免120ms颜色过渡瞬态被误读为反向高亮。App与styles未作额外修改。
+
+## ENGINEER AUDIT 02 官方内容与评价来源闭环修复
+
+用户反馈的“无课程简介、官方入口打开整页JSON”是实际数据消费缺陷。官方245条记录中211条有 `courseDescription`；旧归一化忽略该字段，只给8门人工中文主题句，前端据此错误显示官方缺简介。本轮移除该替代路径，保留安全纯文本的完整官方英文描述及段落，默认展示有来源标记的直接英文摘录，展开全文不作虚构翻译。HTML、脚本／样式、实体和末尾Q&A均有实样回归。
+
+每课按“课程简介／学生评价与体验／历史竞价／来源与访问状态”分开呈现，保留DESIGN0.2目录风格。主来源入口改为可读的Yale SOM课程目录；当期大纲、历年档案和可选的POST原始JSON技术来源明确区分。补充真实教室、cohort及课程属性；空教室归空值，危险或无效大纲URL不呈现为链接。推荐、比较、搜索和本地模型上下文使用实际完整描述，不能据描述伪造评分或工作量。
+
+评价来源registry加入开发读取和生产数据白名单：9个来源、8条公开材料、5个课程身份；正式SOM评价记录仍为0。按课程号、标题、学期及具体section匹配，并逐教学班比较材料教师，明确历史教师不同与发布日期不等于修读学期。公开体验、偏好／助教背景分开；目录、登录门户或搜索链接不被称为已读取的评语。来源状态中文显示，详细局限可展开。网页未增加评价文件上传功能；维护者本地CLI导入的能力和范围见REVIEW-SOURCES.md，不把个人方案导入按钮说成评价导入。
+
+重新抓取的官方快照也实际补全了MGT925：S2周二16:10–19:10、EVANS4200、MMS AM标签。常规时刻缺失／歧义现为35条；不能继续沿用旧“925无时刻”的断言。测试仍保留无时刻不生成日历的独立fixture，并另外检查925真实更新。
+
+最终固定候选运行结果：11项Python来源／安全边界回归、22项TypeScript核心与证据测试、10项真实Chromium浏览器用例及生产构建全部通过。原方案采纳／撤回、预算、缓存恢复、未知ID和窄屏断言均保留。CI新增无网络的unittest回归、`review_sources.py validate`真实来源关联检查及生产`review-sources.json`存在门禁，避免只测界面却丢源字段。
+
+4173独立生产预览已检查完整554英文原文、531历史教师差异、935手机长说明及来源覆盖，页面错误和横向溢出均为0。证据：`artifacts/audit-02/engineer-evidence.json`、同目录四张实际截图与`engineer-source-hashes.json`。候选源码与数据聚合指纹为 `62f1b863fe49c141a2bc8ca9a938e85882d6cb0438de510f2a2c8aa629425db1`。这是实施者的本地生产检查，不代替设计／独立评审或新版线上发布核验；本Agent未执行commit、push或发布。

@@ -9,6 +9,7 @@ const runtimeDataFiles = [
   'catalog.json',
   'bidding-history.json',
   'reviews.json',
+  'review-sources.json',
   'enrollment-history.json',
   'exchange-history.json',
   'nonsom-history.json',

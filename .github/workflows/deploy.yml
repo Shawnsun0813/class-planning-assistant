@@ -35,6 +35,11 @@ jobs:
       - name: Install locked dependencies
         run: npm ci
 
+      - name: Check source normalization and data coverage
+        run: |
+          python3 -m unittest discover -s tests -p 'test_*.py'
+          python3 scripts/review_sources.py validate
+
       - name: Run core checks
         run: npm run test
 
@@ -43,6 +48,7 @@ jobs:
           npm run build
           test -f dist/index.html
           test -f dist/data/catalog.json
+          test -f dist/data/review-sources.json
           test ! -d dist/data/raw
 
       - name: Upload only the built site

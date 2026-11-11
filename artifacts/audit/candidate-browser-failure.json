@@ -1,0 +1,17 @@
+{
+  "status": "failed",
+  "checks": [
+    "development runtime reads all seven exact candidate JSON snapshots",
+    "user screenshot MGT523 official full text exactly matches JSON, readable official directory and explicitly historical syllabus reachable",
+    "683 complete literal Q&A and important course-specific 50-point/ENV terms preserved",
+    "nine source states displayed in Chinese; formal SOM evaluations0, materials8, identities5 and211/245 coverage visible",
+    "531 shows Brooks historical material as different from current Tate and distinguishes preference/background",
+    "new651 missing review is project coverage gap, not absence claim; old same-code legal-course bids excluded",
+    "genuine missing description remains missing without fabricated summary",
+    "description-only phrase searches real course rather than title-only fallback",
+    "history remains22/7 unconfirmed; S2 includes651 twice and retreat unknown retained"
+  ],
+  "errors": [],
+  "failed": [],
+  "error": "TimeoutError: locator.selectOption: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel('允许例外的课程', { exact: true })\u001b[22m\n"
+}

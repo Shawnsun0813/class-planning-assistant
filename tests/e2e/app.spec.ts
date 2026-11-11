@@ -65,3 +65,35 @@ test('手机条件默认折叠、确认和生成后回到结果',async({page})=>
  await expect(page.getByRole('heading',{name:'My timetable.'})).toBeVisible();
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
 });
+
+test('官方完整简介、可读课程入口与评价读取状态相互区分',async({page})=>{
+ await page.goto('/');await page.getByRole('textbox',{name:'搜索课程',exact:true}).fill('554');
+ const course=page.locator('[data-course-id="MGT554-01-202701"]');
+ await expect(course.locator('.description-preview')).toContainText('官方课程简介 · 英文摘录');
+ await course.getByRole('button',{name:'展开官方全文 ↓',exact:true}).click();
+ await expect(course.locator('.official-description')).toContainText('historical business data');
+ await expect(course.locator('.official-description')).toContainText('measurable business outcomes.');
+ await expect(course.locator('.course-facts')).toContainText('EVANS 2230');
+ await course.locator('summary').filter({hasText:/^学生评价与体验/}).click();
+ await expect(course).toContainText('当前没有导入 Yale 官方评价分数');
+ await expect(course).toContainText('需本人登录');
+ await course.locator('summary').filter({hasText:/^来源与访问状态/}).click();
+ await expect(course.getByRole('link',{name:'打开 Yale SOM 官方课程目录 ↗',exact:true})).toHaveAttribute('href','https://som.yale.edu/elective-core-courses');
+ await expect(course.locator('.technical-source')).not.toHaveAttribute('open','');
+ await expect(course.getByRole('link',{name:'原始JSON接口 · 技术来源 ↗',exact:true})).not.toBeVisible();
+ await page.getByRole('button',{name:'资料与使用说明',exact:true}).click();
+ await expect(page.locator('.review-source-registry')).toContainText('正式SOM评教记录 0 份');
+ await expect(page.locator('.review-source-registry')).toContainText('访问受限，SOM 课评覆盖未证实');
+});
+
+test('390px官方长简介能展开，原文及访问状态无横向溢出',async({page})=>{
+ await page.setViewportSize({width:390,height:844});await page.goto('/');
+ await page.getByRole('textbox',{name:'搜索课程',exact:true}).fill('935');
+ const course=page.locator('[data-course-id="MGT935-01-202701"]');
+ await course.getByRole('button',{name:'展开官方全文 ↓',exact:true}).click();
+ await expect(course.locator('.official-description')).toContainText('out-of-sample');
+ await expect(course.locator('.official-description')).toContainText('active practitioner');
+ await course.locator('summary').filter({hasText:/^学生评价与体验/}).click();
+ await expect(course).toContainText('这不表示课程没有评价');
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+});

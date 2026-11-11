@@ -1,0 +1,1551 @@
+{
+  "checkedAt": "2026-11-11T15:49:18.926298+00:00",
+  "sourceUrl": "https://som.yale.edu/courses/session-items/202701",
+  "rawResponseSha256": "2d444d004df4799af337a75f188abf7200d5dcd7a239bdbc30247dc3eb27714e",
+  "summary": {
+    "recordCount": 245,
+    "exportCount": 245,
+    "sourceDescriptionCount": 211,
+    "exportDescriptionCount": 211,
+    "missingDescriptions": 34,
+    "missingMeetings": 35,
+    "fieldMismatches": 0,
+    "exportRetrievedAt": "2026-11-11T15:37:53.673235+00:00",
+    "sourceResponseTimestamp": "2026-11-11T13:28:57.974Z",
+    "sourceDescriptionCoverageMetadata": {
+      "provided": 211,
+      "missing": 34,
+      "method": "official courseDescription normalized to plain text; preview is a direct extract"
+    },
+    "925": {
+      "id": "MGT925-01-202701",
+      "sourceCourseId": "24827",
+      "code": "MGT 925",
+      "section": "01",
+      "title": "Applied Investing",
+      "termCode": "202701",
+      "session": "S2",
+      "startDate": "2027-03-22",
+      "endDate": "2027-05-04",
+      "credits": 2.0,
+      "faculty": [
+        "Brennan, Jessica"
+      ],
+      "categories": [
+        "Asset Management",
+        "Entrepreneurship & Private Equity",
+        "Finance"
+      ],
+      "meetings": [
+        {
+          "days": [
+            2
+          ],
+          "start": "16:10",
+          "end": "19:10"
+        }
+      ],
+      "daysTimes": "T 4:10 PM-7:10 PM",
+      "rawDay": "T",
+      "capacity": 75.0,
+      "availableSeats": null,
+      "bidAllowed": true,
+      "bidOrPermission": "bid",
+      "prerequisite": null,
+      "room": "EVANS 4200",
+      "courseAttributes": [
+        "MGAE"
+      ],
+      "cohort": null,
+      "programTags": [
+        "MMS AM"
+      ],
+      "syllabusUrl": null,
+      "oldSyllabusUrl": null,
+      "isNew": true,
+      "eligibilityVerified": false,
+      "sourceUrl": "https://som.yale.edu/courses/session-items/202701",
+      "directoryUrl": "https://som.yale.edu/elective-core-courses",
+      "description": "Applied Investing and Allocation puts students in the seat of an institutional allocator. Each student takes on an allocator type (sovereign wealth fund, pension fund, endowment or foundation, insurance company, or family office) and works through the decisions that allocator faces today across public equities, fixed income, private markets, private credit, and real assets. Sessions are organized around six dimensions every allocator must weigh: time horizon, liquidity, return, risk, tax, and expense. Throughout the course, students apply a Signal vs. Noise Diagnostic to separate durable structural shifts from short-term market narratives, working from primary sources such as allocator annual reports, GP letters, and industry data. Senior practitioners from across allocator types join as guest speakers. Coursework includes weekly group assignments, an individual Investment Journal, and a final investment memo presented in an Investment Committee format.",
+      "descriptionPreview": "Applied Investing and Allocation puts students in the seat of an institutional allocator. Each student takes on an allocator type (sovereign wealth fund, pension fund, endowment or foundation, insurance company, or…",
+      "descriptionSource": "official_catalog",
+      "descriptionSourceUrl": "https://som.yale.edu/courses/session-items/202701",
+      "summary": "Applied Investing and Allocation puts students in the seat of an institutional allocator. Each student takes on an allocator type (sovereign wealth fund, pension fund, endowment or foundation, insurance company, or…",
+      "summaryType": "official_description_excerpt",
+      "timingStatus": "known_regular_slots"
+    }
+  },
+  "mismatches": [],
+  "descriptionDetails": [
+    {
+      "id": "MGMT7101-01-202701",
+      "sourceDescriptionLength": 493,
+      "exportDescriptionLength": 493,
+      "match": true
+    },
+    {
+      "id": "MGMT7202-01-202701",
+      "sourceDescriptionLength": 774,
+      "exportDescriptionLength": 774,
+      "match": true
+    },
+    {
+      "id": "MGMT7203-01-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGMT7207-01-202701",
+      "sourceDescriptionLength": 726,
+      "exportDescriptionLength": 726,
+      "match": true
+    },
+    {
+      "id": "MGMT7210-01-202701",
+      "sourceDescriptionLength": 376,
+      "exportDescriptionLength": 376,
+      "match": true
+    },
+    {
+      "id": "MGMT7304-01-202701",
+      "sourceDescriptionLength": 397,
+      "exportDescriptionLength": 397,
+      "match": true
+    },
+    {
+      "id": "MGMT7305-01-202701",
+      "sourceDescriptionLength": 245,
+      "exportDescriptionLength": 245,
+      "match": true
+    },
+    {
+      "id": "MGMT7310-01-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGMT7312-01-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGMT7317-01-202701",
+      "sourceDescriptionLength": 698,
+      "exportDescriptionLength": 698,
+      "match": true
+    },
+    {
+      "id": "MGMT7405-01-202701",
+      "sourceDescriptionLength": 1421,
+      "exportDescriptionLength": 1421,
+      "match": true
+    },
+    {
+      "id": "MGMT7509-01-202701",
+      "sourceDescriptionLength": 1060,
+      "exportDescriptionLength": 1060,
+      "match": true
+    },
+    {
+      "id": "MGMT7810-01-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGMT7811-01-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGMT7820-01-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGMT7821-01-202701",
+      "sourceDescriptionLength": 357,
+      "exportDescriptionLength": 357,
+      "match": true
+    },
+    {
+      "id": "MGMT7830-01-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGMT7831-01-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGMT7840-01-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGMT7841-01-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGMT7850-01-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGMT7851-01-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGT405-E1-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGT408-01-202701",
+      "sourceDescriptionLength": 608,
+      "exportDescriptionLength": 608,
+      "match": true
+    },
+    {
+      "id": "MGT408-02-202701",
+      "sourceDescriptionLength": 608,
+      "exportDescriptionLength": 608,
+      "match": true
+    },
+    {
+      "id": "MGT408-03-202701",
+      "sourceDescriptionLength": 608,
+      "exportDescriptionLength": 608,
+      "match": true
+    },
+    {
+      "id": "MGT408-04-202701",
+      "sourceDescriptionLength": 608,
+      "exportDescriptionLength": 608,
+      "match": true
+    },
+    {
+      "id": "MGT408-05-202701",
+      "sourceDescriptionLength": 608,
+      "exportDescriptionLength": 608,
+      "match": true
+    },
+    {
+      "id": "MGT408-E1-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGT416-01-202701",
+      "sourceDescriptionLength": 1272,
+      "exportDescriptionLength": 1272,
+      "match": true
+    },
+    {
+      "id": "MGT416-02-202701",
+      "sourceDescriptionLength": 1025,
+      "exportDescriptionLength": 1025,
+      "match": true
+    },
+    {
+      "id": "MGT416-03-202701",
+      "sourceDescriptionLength": 750,
+      "exportDescriptionLength": 750,
+      "match": true
+    },
+    {
+      "id": "MGT416-04-202701",
+      "sourceDescriptionLength": 1073,
+      "exportDescriptionLength": 1073,
+      "match": true
+    },
+    {
+      "id": "MGT416-05-202701",
+      "sourceDescriptionLength": 1062,
+      "exportDescriptionLength": 1062,
+      "match": true
+    },
+    {
+      "id": "MGT416-06-202701",
+      "sourceDescriptionLength": 945,
+      "exportDescriptionLength": 945,
+      "match": true
+    },
+    {
+      "id": "MGT416-07-202701",
+      "sourceDescriptionLength": 1012,
+      "exportDescriptionLength": 1012,
+      "match": true
+    },
+    {
+      "id": "MGT416-08-202701",
+      "sourceDescriptionLength": 1195,
+      "exportDescriptionLength": 1195,
+      "match": true
+    },
+    {
+      "id": "MGT416-10-202701",
+      "sourceDescriptionLength": 985,
+      "exportDescriptionLength": 985,
+      "match": true
+    },
+    {
+      "id": "MGT416-11-202701",
+      "sourceDescriptionLength": 1400,
+      "exportDescriptionLength": 1400,
+      "match": true
+    },
+    {
+      "id": "MGT420-01-202701",
+      "sourceDescriptionLength": 1100,
+      "exportDescriptionLength": 1100,
+      "match": true
+    },
+    {
+      "id": "MGT420-02-202701",
+      "sourceDescriptionLength": 1100,
+      "exportDescriptionLength": 1100,
+      "match": true
+    },
+    {
+      "id": "MGT420-03-202701",
+      "sourceDescriptionLength": 1100,
+      "exportDescriptionLength": 1100,
+      "match": true
+    },
+    {
+      "id": "MGT420-04-202701",
+      "sourceDescriptionLength": 1100,
+      "exportDescriptionLength": 1100,
+      "match": true
+    },
+    {
+      "id": "MGT420-05-202701",
+      "sourceDescriptionLength": 1100,
+      "exportDescriptionLength": 1100,
+      "match": true
+    },
+    {
+      "id": "MGT421-01-202701",
+      "sourceDescriptionLength": 717,
+      "exportDescriptionLength": 717,
+      "match": true
+    },
+    {
+      "id": "MGT421-02-202701",
+      "sourceDescriptionLength": 717,
+      "exportDescriptionLength": 717,
+      "match": true
+    },
+    {
+      "id": "MGT421-03-202701",
+      "sourceDescriptionLength": 717,
+      "exportDescriptionLength": 717,
+      "match": true
+    },
+    {
+      "id": "MGT421-04-202701",
+      "sourceDescriptionLength": 717,
+      "exportDescriptionLength": 717,
+      "match": true
+    },
+    {
+      "id": "MGT421-05-202701",
+      "sourceDescriptionLength": 717,
+      "exportDescriptionLength": 717,
+      "match": true
+    },
+    {
+      "id": "MGT421-E1-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGT422-01-202701",
+      "sourceDescriptionLength": 1082,
+      "exportDescriptionLength": 1082,
+      "match": true
+    },
+    {
+      "id": "MGT422-02-202701",
+      "sourceDescriptionLength": 1082,
+      "exportDescriptionLength": 1082,
+      "match": true
+    },
+    {
+      "id": "MGT422-03-202701",
+      "sourceDescriptionLength": 1082,
+      "exportDescriptionLength": 1082,
+      "match": true
+    },
+    {
+      "id": "MGT422-04-202701",
+      "sourceDescriptionLength": 1082,
+      "exportDescriptionLength": 1082,
+      "match": true
+    },
+    {
+      "id": "MGT422-05-202701",
+      "sourceDescriptionLength": 1082,
+      "exportDescriptionLength": 1082,
+      "match": true
+    },
+    {
+      "id": "MGT423-01-202701",
+      "sourceDescriptionLength": 772,
+      "exportDescriptionLength": 772,
+      "match": true
+    },
+    {
+      "id": "MGT423-02-202701",
+      "sourceDescriptionLength": 772,
+      "exportDescriptionLength": 772,
+      "match": true
+    },
+    {
+      "id": "MGT423-03-202701",
+      "sourceDescriptionLength": 772,
+      "exportDescriptionLength": 772,
+      "match": true
+    },
+    {
+      "id": "MGT423-04-202701",
+      "sourceDescriptionLength": 772,
+      "exportDescriptionLength": 772,
+      "match": true
+    },
+    {
+      "id": "MGT423-05-202701",
+      "sourceDescriptionLength": 772,
+      "exportDescriptionLength": 772,
+      "match": true
+    },
+    {
+      "id": "MGT423-E1-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGT425-01-202701",
+      "sourceDescriptionLength": 663,
+      "exportDescriptionLength": 663,
+      "match": true
+    },
+    {
+      "id": "MGT425-02-202701",
+      "sourceDescriptionLength": 663,
+      "exportDescriptionLength": 663,
+      "match": true
+    },
+    {
+      "id": "MGT425-03-202701",
+      "sourceDescriptionLength": 663,
+      "exportDescriptionLength": 663,
+      "match": true
+    },
+    {
+      "id": "MGT425-04-202701",
+      "sourceDescriptionLength": 663,
+      "exportDescriptionLength": 663,
+      "match": true
+    },
+    {
+      "id": "MGT425-05-202701",
+      "sourceDescriptionLength": 663,
+      "exportDescriptionLength": 663,
+      "match": true
+    },
+    {
+      "id": "MGT425-E1-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGT430-01-202701",
+      "sourceDescriptionLength": 933,
+      "exportDescriptionLength": 933,
+      "match": true
+    },
+    {
+      "id": "MGT430-02-202701",
+      "sourceDescriptionLength": 933,
+      "exportDescriptionLength": 933,
+      "match": true
+    },
+    {
+      "id": "MGT430-03-202701",
+      "sourceDescriptionLength": 933,
+      "exportDescriptionLength": 933,
+      "match": true
+    },
+    {
+      "id": "MGT430-04-202701",
+      "sourceDescriptionLength": 933,
+      "exportDescriptionLength": 933,
+      "match": true
+    },
+    {
+      "id": "MGT430-05-202701",
+      "sourceDescriptionLength": 933,
+      "exportDescriptionLength": 933,
+      "match": true
+    },
+    {
+      "id": "MGT523-01-202701",
+      "sourceDescriptionLength": 888,
+      "exportDescriptionLength": 888,
+      "match": true
+    },
+    {
+      "id": "MGT525-01-202701",
+      "sourceDescriptionLength": 960,
+      "exportDescriptionLength": 960,
+      "match": true
+    },
+    {
+      "id": "MGT525-02-202701",
+      "sourceDescriptionLength": 960,
+      "exportDescriptionLength": 960,
+      "match": true
+    },
+    {
+      "id": "MGT525-03-202701",
+      "sourceDescriptionLength": 960,
+      "exportDescriptionLength": 960,
+      "match": true
+    },
+    {
+      "id": "MGT526-01-202701",
+      "sourceDescriptionLength": 682,
+      "exportDescriptionLength": 682,
+      "match": true
+    },
+    {
+      "id": "MGT529-01-202701",
+      "sourceDescriptionLength": 2166,
+      "exportDescriptionLength": 2166,
+      "match": true
+    },
+    {
+      "id": "MGT530-01-202701",
+      "sourceDescriptionLength": 509,
+      "exportDescriptionLength": 509,
+      "match": true
+    },
+    {
+      "id": "MGT531-01-202701",
+      "sourceDescriptionLength": 1412,
+      "exportDescriptionLength": 1412,
+      "match": true
+    },
+    {
+      "id": "MGT531-02-202701",
+      "sourceDescriptionLength": 1412,
+      "exportDescriptionLength": 1412,
+      "match": true
+    },
+    {
+      "id": "MGT532-01-202701",
+      "sourceDescriptionLength": 850,
+      "exportDescriptionLength": 850,
+      "match": true
+    },
+    {
+      "id": "MGT532-02-202701",
+      "sourceDescriptionLength": 785,
+      "exportDescriptionLength": 785,
+      "match": true
+    },
+    {
+      "id": "MGT532-03-202701",
+      "sourceDescriptionLength": 785,
+      "exportDescriptionLength": 785,
+      "match": true
+    },
+    {
+      "id": "MGT534-E1-202701",
+      "sourceDescriptionLength": 709,
+      "exportDescriptionLength": 709,
+      "match": true
+    },
+    {
+      "id": "MGT540-01-202701",
+      "sourceDescriptionLength": 710,
+      "exportDescriptionLength": 710,
+      "match": true
+    },
+    {
+      "id": "MGT540-02-202701",
+      "sourceDescriptionLength": 710,
+      "exportDescriptionLength": 710,
+      "match": true
+    },
+    {
+      "id": "MGT541-01-202701",
+      "sourceDescriptionLength": 375,
+      "exportDescriptionLength": 375,
+      "match": true
+    },
+    {
+      "id": "MGT541-02-202701",
+      "sourceDescriptionLength": 855,
+      "exportDescriptionLength": 855,
+      "match": true
+    },
+    {
+      "id": "MGT543-E1-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGT544-01-202701",
+      "sourceDescriptionLength": 537,
+      "exportDescriptionLength": 537,
+      "match": true
+    },
+    {
+      "id": "MGT554-01-202701",
+      "sourceDescriptionLength": 959,
+      "exportDescriptionLength": 959,
+      "match": true
+    },
+    {
+      "id": "MGT554-02-202701",
+      "sourceDescriptionLength": 959,
+      "exportDescriptionLength": 959,
+      "match": true
+    },
+    {
+      "id": "MGT556-01-202701",
+      "sourceDescriptionLength": 469,
+      "exportDescriptionLength": 469,
+      "match": true
+    },
+    {
+      "id": "MGT556-02-202701",
+      "sourceDescriptionLength": 469,
+      "exportDescriptionLength": 469,
+      "match": true
+    },
+    {
+      "id": "MGT561-01-202701",
+      "sourceDescriptionLength": 1326,
+      "exportDescriptionLength": 1326,
+      "match": true
+    },
+    {
+      "id": "MGT565-01-202701",
+      "sourceDescriptionLength": 1242,
+      "exportDescriptionLength": 1242,
+      "match": true
+    },
+    {
+      "id": "MGT575-01-202701",
+      "sourceDescriptionLength": 1255,
+      "exportDescriptionLength": 1255,
+      "match": true
+    },
+    {
+      "id": "MGT575-02-202701",
+      "sourceDescriptionLength": 1255,
+      "exportDescriptionLength": 1255,
+      "match": true
+    },
+    {
+      "id": "MGT581-01-202701",
+      "sourceDescriptionLength": 691,
+      "exportDescriptionLength": 691,
+      "match": true
+    },
+    {
+      "id": "MGT592-E2-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGT600-01-202701",
+      "sourceDescriptionLength": 115,
+      "exportDescriptionLength": 115,
+      "match": true
+    },
+    {
+      "id": "MGT600-02-202701",
+      "sourceDescriptionLength": 99,
+      "exportDescriptionLength": 99,
+      "match": true
+    },
+    {
+      "id": "MGT600-03-202701",
+      "sourceDescriptionLength": 31,
+      "exportDescriptionLength": 31,
+      "match": true
+    },
+    {
+      "id": "MGT600-04-202701",
+      "sourceDescriptionLength": 78,
+      "exportDescriptionLength": 78,
+      "match": true
+    },
+    {
+      "id": "MGT600-05-202701",
+      "sourceDescriptionLength": 154,
+      "exportDescriptionLength": 154,
+      "match": true
+    },
+    {
+      "id": "MGT600-06-202701",
+      "sourceDescriptionLength": 70,
+      "exportDescriptionLength": 70,
+      "match": true
+    },
+    {
+      "id": "MGT600-07-202701",
+      "sourceDescriptionLength": 100,
+      "exportDescriptionLength": 100,
+      "match": true
+    },
+    {
+      "id": "MGT600-08-202701",
+      "sourceDescriptionLength": 56,
+      "exportDescriptionLength": 56,
+      "match": true
+    },
+    {
+      "id": "MGT600-09-202701",
+      "sourceDescriptionLength": 38,
+      "exportDescriptionLength": 38,
+      "match": true
+    },
+    {
+      "id": "MGT600-10-202701",
+      "sourceDescriptionLength": 90,
+      "exportDescriptionLength": 90,
+      "match": true
+    },
+    {
+      "id": "MGT600-11-202701",
+      "sourceDescriptionLength": 25,
+      "exportDescriptionLength": 25,
+      "match": true
+    },
+    {
+      "id": "MGT600-12-202701",
+      "sourceDescriptionLength": 32,
+      "exportDescriptionLength": 32,
+      "match": true
+    },
+    {
+      "id": "MGT600-13-202701",
+      "sourceDescriptionLength": 57,
+      "exportDescriptionLength": 57,
+      "match": true
+    },
+    {
+      "id": "MGT600-14-202701",
+      "sourceDescriptionLength": 254,
+      "exportDescriptionLength": 254,
+      "match": true
+    },
+    {
+      "id": "MGT600-15-202701",
+      "sourceDescriptionLength": 94,
+      "exportDescriptionLength": 94,
+      "match": true
+    },
+    {
+      "id": "MGT600-16-202701",
+      "sourceDescriptionLength": 33,
+      "exportDescriptionLength": 33,
+      "match": true
+    },
+    {
+      "id": "MGT600-18-202701",
+      "sourceDescriptionLength": 49,
+      "exportDescriptionLength": 49,
+      "match": true
+    },
+    {
+      "id": "MGT606-01-202701",
+      "sourceDescriptionLength": 556,
+      "exportDescriptionLength": 556,
+      "match": true
+    },
+    {
+      "id": "MGT614-01-202701",
+      "sourceDescriptionLength": 1236,
+      "exportDescriptionLength": 1236,
+      "match": true
+    },
+    {
+      "id": "MGT620-01-202701",
+      "sourceDescriptionLength": 781,
+      "exportDescriptionLength": 781,
+      "match": true
+    },
+    {
+      "id": "MGT623-01-202701",
+      "sourceDescriptionLength": 2162,
+      "exportDescriptionLength": 2162,
+      "match": true
+    },
+    {
+      "id": "MGT630-01-202701",
+      "sourceDescriptionLength": 838,
+      "exportDescriptionLength": 838,
+      "match": true
+    },
+    {
+      "id": "MGT635-01-202701",
+      "sourceDescriptionLength": 796,
+      "exportDescriptionLength": 796,
+      "match": true
+    },
+    {
+      "id": "MGT638-01-202701",
+      "sourceDescriptionLength": 2054,
+      "exportDescriptionLength": 2054,
+      "match": true
+    },
+    {
+      "id": "MGT640-01-202701",
+      "sourceDescriptionLength": 809,
+      "exportDescriptionLength": 809,
+      "match": true
+    },
+    {
+      "id": "MGT641-01-202701",
+      "sourceDescriptionLength": 1108,
+      "exportDescriptionLength": 1108,
+      "match": true
+    },
+    {
+      "id": "MGT641-02-202701",
+      "sourceDescriptionLength": 1109,
+      "exportDescriptionLength": 1109,
+      "match": true
+    },
+    {
+      "id": "MGT641-03-202701",
+      "sourceDescriptionLength": 1196,
+      "exportDescriptionLength": 1196,
+      "match": true
+    },
+    {
+      "id": "MGT644-01-202701",
+      "sourceDescriptionLength": 925,
+      "exportDescriptionLength": 925,
+      "match": true
+    },
+    {
+      "id": "MGT646-01-202701",
+      "sourceDescriptionLength": 741,
+      "exportDescriptionLength": 741,
+      "match": true
+    },
+    {
+      "id": "MGT650-01-202701",
+      "sourceDescriptionLength": 1180,
+      "exportDescriptionLength": 1180,
+      "match": true
+    },
+    {
+      "id": "MGT651-01-202701",
+      "sourceDescriptionLength": 577,
+      "exportDescriptionLength": 577,
+      "match": true
+    },
+    {
+      "id": "MGT651-02-202701",
+      "sourceDescriptionLength": 577,
+      "exportDescriptionLength": 577,
+      "match": true
+    },
+    {
+      "id": "MGT652-01-202701",
+      "sourceDescriptionLength": 923,
+      "exportDescriptionLength": 923,
+      "match": true
+    },
+    {
+      "id": "MGT653-01-202701",
+      "sourceDescriptionLength": 1776,
+      "exportDescriptionLength": 1776,
+      "match": true
+    },
+    {
+      "id": "MGT665-01-202701",
+      "sourceDescriptionLength": 1203,
+      "exportDescriptionLength": 1203,
+      "match": true
+    },
+    {
+      "id": "MGT665-G1-202701",
+      "sourceDescriptionLength": 1203,
+      "exportDescriptionLength": 1203,
+      "match": true
+    },
+    {
+      "id": "MGT668-01-202701",
+      "sourceDescriptionLength": 2969,
+      "exportDescriptionLength": 2969,
+      "match": true
+    },
+    {
+      "id": "MGT674-01-202701",
+      "sourceDescriptionLength": 1942,
+      "exportDescriptionLength": 1942,
+      "match": true
+    },
+    {
+      "id": "MGT674-02-202701",
+      "sourceDescriptionLength": 1942,
+      "exportDescriptionLength": 1942,
+      "match": true
+    },
+    {
+      "id": "MGT679-01-202701",
+      "sourceDescriptionLength": 1408,
+      "exportDescriptionLength": 1408,
+      "match": true
+    },
+    {
+      "id": "MGT683-01-202701",
+      "sourceDescriptionLength": 1614,
+      "exportDescriptionLength": 1614,
+      "match": true
+    },
+    {
+      "id": "MGT686-01-202701",
+      "sourceDescriptionLength": 792,
+      "exportDescriptionLength": 792,
+      "match": true
+    },
+    {
+      "id": "MGT687-01-202701",
+      "sourceDescriptionLength": 1052,
+      "exportDescriptionLength": 1052,
+      "match": true
+    },
+    {
+      "id": "MGT692-01-202701",
+      "sourceDescriptionLength": 1368,
+      "exportDescriptionLength": 1368,
+      "match": true
+    },
+    {
+      "id": "MGT697-01-202701",
+      "sourceDescriptionLength": 660,
+      "exportDescriptionLength": 660,
+      "match": true
+    },
+    {
+      "id": "MGT698-01-202701",
+      "sourceDescriptionLength": 887,
+      "exportDescriptionLength": 887,
+      "match": true
+    },
+    {
+      "id": "MGT699-01-202701",
+      "sourceDescriptionLength": 892,
+      "exportDescriptionLength": 892,
+      "match": true
+    },
+    {
+      "id": "MGT699-E1-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGT801-01-202701",
+      "sourceDescriptionLength": 827,
+      "exportDescriptionLength": 827,
+      "match": true
+    },
+    {
+      "id": "MGT801-02-202701",
+      "sourceDescriptionLength": 827,
+      "exportDescriptionLength": 827,
+      "match": true
+    },
+    {
+      "id": "MGT803-01-202701",
+      "sourceDescriptionLength": 745,
+      "exportDescriptionLength": 745,
+      "match": true
+    },
+    {
+      "id": "MGT807-E1-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGT812-01-202701",
+      "sourceDescriptionLength": 884,
+      "exportDescriptionLength": 884,
+      "match": true
+    },
+    {
+      "id": "MGT812-G1-202701",
+      "sourceDescriptionLength": 884,
+      "exportDescriptionLength": 884,
+      "match": true
+    },
+    {
+      "id": "MGT815-01-202701",
+      "sourceDescriptionLength": 840,
+      "exportDescriptionLength": 840,
+      "match": true
+    },
+    {
+      "id": "MGT815-02-202701",
+      "sourceDescriptionLength": 840,
+      "exportDescriptionLength": 840,
+      "match": true
+    },
+    {
+      "id": "MGT815-G1-202701",
+      "sourceDescriptionLength": 840,
+      "exportDescriptionLength": 840,
+      "match": true
+    },
+    {
+      "id": "MGT819-01-202701",
+      "sourceDescriptionLength": 809,
+      "exportDescriptionLength": 809,
+      "match": true
+    },
+    {
+      "id": "MGT819-G1-202701",
+      "sourceDescriptionLength": 809,
+      "exportDescriptionLength": 809,
+      "match": true
+    },
+    {
+      "id": "MGT820-E1-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGT821-01-202701",
+      "sourceDescriptionLength": 1164,
+      "exportDescriptionLength": 1164,
+      "match": true
+    },
+    {
+      "id": "MGT822-01-202701",
+      "sourceDescriptionLength": 1044,
+      "exportDescriptionLength": 1044,
+      "match": true
+    },
+    {
+      "id": "MGT822-E1-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGT822-G1-202701",
+      "sourceDescriptionLength": 1044,
+      "exportDescriptionLength": 1044,
+      "match": true
+    },
+    {
+      "id": "MGT825-01-202701",
+      "sourceDescriptionLength": 696,
+      "exportDescriptionLength": 696,
+      "match": true
+    },
+    {
+      "id": "MGT825-G1-202701",
+      "sourceDescriptionLength": 696,
+      "exportDescriptionLength": 696,
+      "match": true
+    },
+    {
+      "id": "MGT826-01-202701",
+      "sourceDescriptionLength": 1039,
+      "exportDescriptionLength": 1039,
+      "match": true
+    },
+    {
+      "id": "MGT827-01-202701",
+      "sourceDescriptionLength": 770,
+      "exportDescriptionLength": 770,
+      "match": true
+    },
+    {
+      "id": "MGT828-01-202701",
+      "sourceDescriptionLength": 1597,
+      "exportDescriptionLength": 1597,
+      "match": true
+    },
+    {
+      "id": "MGT832-01-202701",
+      "sourceDescriptionLength": 1350,
+      "exportDescriptionLength": 1350,
+      "match": true
+    },
+    {
+      "id": "MGT832-02-202701",
+      "sourceDescriptionLength": 1350,
+      "exportDescriptionLength": 1350,
+      "match": true
+    },
+    {
+      "id": "MGT832-03-202701",
+      "sourceDescriptionLength": 1350,
+      "exportDescriptionLength": 1350,
+      "match": true
+    },
+    {
+      "id": "MGT832-04-202701",
+      "sourceDescriptionLength": 1350,
+      "exportDescriptionLength": 1350,
+      "match": true
+    },
+    {
+      "id": "MGT834-01-202701",
+      "sourceDescriptionLength": 1283,
+      "exportDescriptionLength": 1283,
+      "match": true
+    },
+    {
+      "id": "MGT836-G1-202701",
+      "sourceDescriptionLength": 383,
+      "exportDescriptionLength": 383,
+      "match": true
+    },
+    {
+      "id": "MGT839-01-202701",
+      "sourceDescriptionLength": 1013,
+      "exportDescriptionLength": 1013,
+      "match": true
+    },
+    {
+      "id": "MGT842-01-202701",
+      "sourceDescriptionLength": 1447,
+      "exportDescriptionLength": 1447,
+      "match": true
+    },
+    {
+      "id": "MGT845-01-202701",
+      "sourceDescriptionLength": 978,
+      "exportDescriptionLength": 978,
+      "match": true
+    },
+    {
+      "id": "MGT845-02-202701",
+      "sourceDescriptionLength": 978,
+      "exportDescriptionLength": 978,
+      "match": true
+    },
+    {
+      "id": "MGT846-01-202701",
+      "sourceDescriptionLength": 1021,
+      "exportDescriptionLength": 1021,
+      "match": true
+    },
+    {
+      "id": "MGT848-01-202701",
+      "sourceDescriptionLength": 837,
+      "exportDescriptionLength": 837,
+      "match": true
+    },
+    {
+      "id": "MGT849-01-202701",
+      "sourceDescriptionLength": 1432,
+      "exportDescriptionLength": 1432,
+      "match": true
+    },
+    {
+      "id": "MGT854-01-202701",
+      "sourceDescriptionLength": 643,
+      "exportDescriptionLength": 643,
+      "match": true
+    },
+    {
+      "id": "MGT854-02-202701",
+      "sourceDescriptionLength": 643,
+      "exportDescriptionLength": 643,
+      "match": true
+    },
+    {
+      "id": "MGT855-01-202701",
+      "sourceDescriptionLength": 1077,
+      "exportDescriptionLength": 1077,
+      "match": true
+    },
+    {
+      "id": "MGT856-01-202701",
+      "sourceDescriptionLength": 867,
+      "exportDescriptionLength": 867,
+      "match": true
+    },
+    {
+      "id": "MGT858-01-202701",
+      "sourceDescriptionLength": 1130,
+      "exportDescriptionLength": 1130,
+      "match": true
+    },
+    {
+      "id": "MGT859-01-202701",
+      "sourceDescriptionLength": 1096,
+      "exportDescriptionLength": 1096,
+      "match": true
+    },
+    {
+      "id": "MGT860-01-202701",
+      "sourceDescriptionLength": 739,
+      "exportDescriptionLength": 739,
+      "match": true
+    },
+    {
+      "id": "MGT860-02-202701",
+      "sourceDescriptionLength": 739,
+      "exportDescriptionLength": 739,
+      "match": true
+    },
+    {
+      "id": "MGT860-03-202701",
+      "sourceDescriptionLength": 739,
+      "exportDescriptionLength": 739,
+      "match": true
+    },
+    {
+      "id": "MGT861-01-202701",
+      "sourceDescriptionLength": 450,
+      "exportDescriptionLength": 450,
+      "match": true
+    },
+    {
+      "id": "MGT861-02-202701",
+      "sourceDescriptionLength": 450,
+      "exportDescriptionLength": 450,
+      "match": true
+    },
+    {
+      "id": "MGT863-01-202701",
+      "sourceDescriptionLength": 1432,
+      "exportDescriptionLength": 1432,
+      "match": true
+    },
+    {
+      "id": "MGT864-01-202701",
+      "sourceDescriptionLength": 693,
+      "exportDescriptionLength": 693,
+      "match": true
+    },
+    {
+      "id": "MGT864-G1-202701",
+      "sourceDescriptionLength": 693,
+      "exportDescriptionLength": 693,
+      "match": true
+    },
+    {
+      "id": "MGT865-01-202701",
+      "sourceDescriptionLength": 1729,
+      "exportDescriptionLength": 1729,
+      "match": true
+    },
+    {
+      "id": "MGT866-01-202701",
+      "sourceDescriptionLength": 1670,
+      "exportDescriptionLength": 1670,
+      "match": true
+    },
+    {
+      "id": "MGT872-01-202701",
+      "sourceDescriptionLength": 1066,
+      "exportDescriptionLength": 1066,
+      "match": true
+    },
+    {
+      "id": "MGT872-G1-202701",
+      "sourceDescriptionLength": 1066,
+      "exportDescriptionLength": 1066,
+      "match": true
+    },
+    {
+      "id": "MGT878-01-202701",
+      "sourceDescriptionLength": 1164,
+      "exportDescriptionLength": 1164,
+      "match": true
+    },
+    {
+      "id": "MGT879-01-202701",
+      "sourceDescriptionLength": 968,
+      "exportDescriptionLength": 968,
+      "match": true
+    },
+    {
+      "id": "MGT879-E1-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGT882-01-202701",
+      "sourceDescriptionLength": 482,
+      "exportDescriptionLength": 482,
+      "match": true
+    },
+    {
+      "id": "MGT882-02-202701",
+      "sourceDescriptionLength": 482,
+      "exportDescriptionLength": 482,
+      "match": true
+    },
+    {
+      "id": "MGT882-E1-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGT883-01-202701",
+      "sourceDescriptionLength": 1285,
+      "exportDescriptionLength": 1285,
+      "match": true
+    },
+    {
+      "id": "MGT883-02-202701",
+      "sourceDescriptionLength": 1285,
+      "exportDescriptionLength": 1285,
+      "match": true
+    },
+    {
+      "id": "MGT885-01-202701",
+      "sourceDescriptionLength": 1311,
+      "exportDescriptionLength": 1311,
+      "match": true
+    },
+    {
+      "id": "MGT885-02-202701",
+      "sourceDescriptionLength": 1311,
+      "exportDescriptionLength": 1311,
+      "match": true
+    },
+    {
+      "id": "MGT887-01-202701",
+      "sourceDescriptionLength": 589,
+      "exportDescriptionLength": 589,
+      "match": true
+    },
+    {
+      "id": "MGT887-02-202701",
+      "sourceDescriptionLength": 589,
+      "exportDescriptionLength": 589,
+      "match": true
+    },
+    {
+      "id": "MGT892-01-202701",
+      "sourceDescriptionLength": 1043,
+      "exportDescriptionLength": 1043,
+      "match": true
+    },
+    {
+      "id": "MGT896-01-202701",
+      "sourceDescriptionLength": 2036,
+      "exportDescriptionLength": 2036,
+      "match": true
+    },
+    {
+      "id": "MGT901-01-202701",
+      "sourceDescriptionLength": 423,
+      "exportDescriptionLength": 423,
+      "match": true
+    },
+    {
+      "id": "MGT920-01-202701",
+      "sourceDescriptionLength": 428,
+      "exportDescriptionLength": 428,
+      "match": true
+    },
+    {
+      "id": "MGT921-01-202701",
+      "sourceDescriptionLength": 317,
+      "exportDescriptionLength": 317,
+      "match": true
+    },
+    {
+      "id": "MGT925-01-202701",
+      "sourceDescriptionLength": 967,
+      "exportDescriptionLength": 967,
+      "match": true
+    },
+    {
+      "id": "MGT927-01-202701",
+      "sourceDescriptionLength": 520,
+      "exportDescriptionLength": 520,
+      "match": true
+    },
+    {
+      "id": "MGT928-01-202701",
+      "sourceDescriptionLength": 416,
+      "exportDescriptionLength": 416,
+      "match": true
+    },
+    {
+      "id": "MGT929-01-202701",
+      "sourceDescriptionLength": 553,
+      "exportDescriptionLength": 553,
+      "match": true
+    },
+    {
+      "id": "MGT929-02-202701",
+      "sourceDescriptionLength": 553,
+      "exportDescriptionLength": 553,
+      "match": true
+    },
+    {
+      "id": "MGT929-E1-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGT933-01-202701",
+      "sourceDescriptionLength": 574,
+      "exportDescriptionLength": 574,
+      "match": true
+    },
+    {
+      "id": "MGT935-01-202701",
+      "sourceDescriptionLength": 1245,
+      "exportDescriptionLength": 1245,
+      "match": true
+    },
+    {
+      "id": "MGT936-01-202701",
+      "sourceDescriptionLength": 740,
+      "exportDescriptionLength": 740,
+      "match": true
+    },
+    {
+      "id": "MGT937-01-202701",
+      "sourceDescriptionLength": 763,
+      "exportDescriptionLength": 763,
+      "match": true
+    },
+    {
+      "id": "MGT938-01-202701",
+      "sourceDescriptionLength": 1105,
+      "exportDescriptionLength": 1105,
+      "match": true
+    },
+    {
+      "id": "MGT943-01-202701",
+      "sourceDescriptionLength": 403,
+      "exportDescriptionLength": 403,
+      "match": true
+    },
+    {
+      "id": "MGT945-01-202701",
+      "sourceDescriptionLength": 705,
+      "exportDescriptionLength": 705,
+      "match": true
+    },
+    {
+      "id": "MGT949-01-202701",
+      "sourceDescriptionLength": 548,
+      "exportDescriptionLength": 548,
+      "match": true
+    },
+    {
+      "id": "MGT952-01-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGT960-01-202701",
+      "sourceDescriptionLength": 800,
+      "exportDescriptionLength": 800,
+      "match": true
+    },
+    {
+      "id": "MGT960-G1-202701",
+      "sourceDescriptionLength": 800,
+      "exportDescriptionLength": 800,
+      "match": true
+    },
+    {
+      "id": "MGT964-01-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGT965-01-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGT970-01-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGT973-01-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGT977-01-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGT983-01-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGT984-01-202701",
+      "sourceDescriptionLength": 984,
+      "exportDescriptionLength": 984,
+      "match": true
+    },
+    {
+      "id": "MGT994-E1-202701",
+      "sourceDescriptionLength": 0,
+      "exportDescriptionLength": 0,
+      "match": true
+    },
+    {
+      "id": "MGT995-01-202701",
+      "sourceDescriptionLength": 786,
+      "exportDescriptionLength": 786,
+      "match": true
+    }
+  ]
+}

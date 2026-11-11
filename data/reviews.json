@@ -2,7 +2,7 @@
   "metadata": {
     "schemaVersion": 1,
     "retrievedAt": "2026-11-11T12:58:48.281846+00:00",
-    "reviewCount": 6,
+    "reviewCount": 8,
     "searchedSources": [
       "public student writing",
       "official SOM alumni/student interviews",
@@ -49,7 +49,18 @@
           "reason": "Only JavaScript application shell readable; no evaluation text obtained."
         }
       ]
-    }
+    },
+    "classificationCounts": {
+      "independent_course_review": 4,
+      "alumni_testimonial": 2,
+      "preference_only": 1,
+      "background_only": 1
+    },
+    "authenticatedEvaluationCount": 0,
+    "coverageLabel": "8 materials / 5 courses; 4 independent course reviews by one author, 2 alumni testimonials, 1 preference-only profile and 1 TA background",
+    "integrationStatus": "curated_public_materials_only_no_authenticated_SOM_evaluation_feed",
+    "sourceRegistry": "review-sources.json",
+    "sourceAuditCheckedAt": "2026-11-11T15:42:46.601825+00:00"
   },
   "reviews": [
     {
@@ -76,7 +87,20 @@
       "limitations": [
         "单一学生体验；具体修读学期未确认。",
         "不得推断2027版作业、难度或工作量不变。"
-      ]
+      ],
+      "materialKind": "independent_course_review",
+      "sourceId": "public_student_writing",
+      "courseTitle": "AI for Business Decisions",
+      "evidenceScope": "historical_course_experience",
+      "accessScope": "public",
+      "courseIdentityStatus": "current_title_matches_historical_source_term_unconfirmed",
+      "sourceChecks": {
+        "method": "web_reader_full_article_checked",
+        "checkedAt": "2026-11-11T15:42:46.601825+00:00",
+        "httpClientStatus": "proxy_blocked_403",
+        "note": "Full source was read with web tool; standalone HTTP revalidation may fail without implying article absent.",
+        "foundCourseReference": true
+      }
     },
     {
       "term": null,
@@ -102,7 +126,20 @@
       "limitations": [
         "单一学生体验；不是心理治疗课程的承诺。",
         "不同教师、学期和个人投入可能产生不同体验。"
-      ]
+      ],
+      "materialKind": "independent_course_review",
+      "sourceId": "public_student_writing",
+      "courseTitle": "Interpersonal and Group Dynamics",
+      "evidenceScope": "historical_course_experience",
+      "accessScope": "public",
+      "courseIdentityStatus": "current_title_matches_historical_source_term_unconfirmed",
+      "sourceChecks": {
+        "method": "web_reader_full_article_checked",
+        "checkedAt": "2026-11-11T15:42:46.601825+00:00",
+        "httpClientStatus": "proxy_blocked_403",
+        "note": "Full source was read with web tool; standalone HTTP revalidation may fail without implying article absent.",
+        "foundCourseReference": true
+      }
     },
     {
       "term": null,
@@ -124,7 +161,37 @@
       "limitations": [
         "学校发布的正向校友访谈，存在选择与宣传偏差。",
         "未提供作业难度、评分、工作量或全班评价；不能证明课程普遍适合所有人。"
-      ]
+      ],
+      "materialKind": "alumni_testimonial",
+      "sourceId": "alumni_testimonials",
+      "courseTitle": "Product Management",
+      "evidenceScope": "historical_course_experience",
+      "accessScope": "public",
+      "courseIdentityStatus": "current_title_matches_historical_source_term_unconfirmed",
+      "sourceChecks": {
+        "method": "public_html_read_and_markers_checked",
+        "checkedAt": "2026-11-11T15:42:46.601825+00:00",
+        "httpClientStatus": "200",
+        "latestHttpCheck": {
+          "url": "https://som.yale.edu/story/2025/som-women-supply-chain-10-questions-5-experts",
+          "checkedAt": "2026-11-11T15:44:55.891967+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://som.yale.edu/story/2025/som-women-supply-chain-10-questions-5-experts",
+          "status": "public_source_content_verified",
+          "sha256": "36d43dad26f6bc9e9f03e51167caeb8c997b95a2cfb27a106169e3480277b92d",
+          "expectedMarkers": [
+            "Product Management",
+            "KPI",
+            "Andrea Pacheco"
+          ],
+          "matchedMarkers": [
+            "Product Management",
+            "KPI",
+            "Andrea Pacheco"
+          ]
+        },
+        "foundCourseReference": true
+      }
     },
     {
       "term": null,
@@ -146,7 +213,19 @@
       "limitations": [
         "单一受访者，教师为Heidi Brooks。",
         "不能作为David Tate当前班级的直接教学评价，也不能推断低工作量。"
-      ]
+      ],
+      "materialKind": "alumni_testimonial",
+      "sourceId": "alumni_testimonials",
+      "courseTitle": "Interpersonal and Group Dynamics",
+      "evidenceScope": "historical_course_experience",
+      "accessScope": "public",
+      "courseIdentityStatus": "current_title_matches_historical_source_term_unconfirmed",
+      "sourceChecks": {
+        "method": "web_reader_full_interview_checked",
+        "checkedAt": "2026-11-11T15:42:46.601825+00:00",
+        "httpClientStatus": "403_site_access",
+        "foundCourseReference": true
+      }
     },
     {
       "term": null,
@@ -166,7 +245,35 @@
       "limitations": [
         "只有喜好陈述，没有具体教学、作业或投入证据。",
         "历史个人体验，不代表2027课程质量或多数学生。"
-      ]
+      ],
+      "materialKind": "preference_only",
+      "sourceId": "alumni_testimonials",
+      "courseTitle": "Interpersonal and Group Dynamics",
+      "evidenceScope": "preference_only",
+      "accessScope": "public",
+      "courseIdentityStatus": "current_title_matches_historical_source_term_unconfirmed",
+      "sourceChecks": {
+        "method": "public_html_read_and_markers_checked",
+        "checkedAt": "2026-11-11T15:42:46.601825+00:00",
+        "httpClientStatus": "200",
+        "latestHttpCheck": {
+          "url": "https://som.yale.edu/profile/edirin-aghoghovbia-19",
+          "checkedAt": "2026-11-11T15:44:55.890778+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://som.yale.edu/profile/edirin-aghoghovbia-19",
+          "status": "public_source_content_verified",
+          "sha256": "5a487f4b27c5358435dc9768e1f3c949acc1877d79601b744276d54a463c4e42",
+          "expectedMarkers": [
+            "Interpersonal Dynamics",
+            "Favorite Yale SOM class"
+          ],
+          "matchedMarkers": [
+            "Interpersonal Dynamics",
+            "Favorite Yale SOM class"
+          ]
+        },
+        "foundCourseReference": true
+      }
     },
     {
       "term": null,
@@ -187,7 +294,113 @@
       "workload": null,
       "limitations": [
         "这是助教角色描述，不是课程质量评分或独立学生选课推荐。"
-      ]
+      ],
+      "materialKind": "background_only",
+      "sourceId": "alumni_testimonials",
+      "courseTitle": "Product Management",
+      "evidenceScope": "background_only",
+      "accessScope": "public",
+      "courseIdentityStatus": "current_title_matches_historical_source_term_unconfirmed",
+      "sourceChecks": {
+        "method": "public_html_read_and_markers_checked",
+        "checkedAt": "2026-11-11T15:42:46.601825+00:00",
+        "httpClientStatus": "200",
+        "latestHttpCheck": {
+          "url": "https://som.yale.edu/story/2025/day-life-luisa-locatelli-25",
+          "checkedAt": "2026-11-11T15:44:55.891435+00:00",
+          "httpStatus": 200,
+          "finalUrl": "https://som.yale.edu/story/2025/day-life-luisa-locatelli-25",
+          "status": "public_source_content_verified",
+          "sha256": "e7a434b4b1f87b29bf8cf3f676602877d47c8614c7916610ef97154a10322c5d",
+          "expectedMarkers": [
+            "Product Management",
+            "TA for the class"
+          ],
+          "matchedMarkers": [
+            "Product Management",
+            "TA for the class"
+          ]
+        },
+        "foundCourseReference": true
+      }
+    },
+    {
+      "term": null,
+      "rating": null,
+      "retrievedAt": "2026-11-11T15:42:46.601825+00:00",
+      "independentSampleSize": 1,
+      "sourceUrl": "https://fraxinus1098.substack.com/p/250k-later-my-slightly-obsessive",
+      "sourceType": "independent_student_first_person",
+      "author": "Ash Duong",
+      "publishedAt": "2025-05-10",
+      "materialKind": "independent_course_review",
+      "sourceId": "public_student_writing",
+      "evidenceScope": "historical_course_experience",
+      "accessScope": "public",
+      "courseIdentityStatus": "current_title_matches_historical_source_term_unconfirmed",
+      "id": "ash-2025-mgt858",
+      "courseCode": "MGT 858",
+      "courseTitle": "Database Systems",
+      "title": "Database Systems 学生体验",
+      "faculty": [
+        "Kyle Jensen"
+      ],
+      "summary": "作者认为SQL与数据库概念对技术工作有基础价值；提到当时有每日阅读、测验和作业，个人感觉较直观。",
+      "workload": {
+        "value": 3,
+        "scale": 5,
+        "meaning": "作者个人Lift评分，不是质量评分或每周工时"
+      },
+      "limitations": [
+        "同一作者的个人体验；具体修读学期未确认。",
+        "不代表2027教学安排或多数学生，不作为评价网站评分。"
+      ],
+      "sourceChecks": {
+        "method": "web_reader_full_article_checked",
+        "checkedAt": "2026-11-11T15:42:46.601825+00:00",
+        "httpClientStatus": "proxy_blocked_403",
+        "note": "Full source was read with web tool; standalone HTTP revalidation may fail without implying article absent.",
+        "foundCourseReference": true
+      }
+    },
+    {
+      "term": null,
+      "rating": null,
+      "retrievedAt": "2026-11-11T15:42:46.601825+00:00",
+      "independentSampleSize": 1,
+      "sourceUrl": "https://fraxinus1098.substack.com/p/250k-later-my-slightly-obsessive",
+      "sourceType": "independent_student_first_person",
+      "author": "Ash Duong",
+      "publishedAt": "2025-05-10",
+      "materialKind": "independent_course_review",
+      "sourceId": "public_student_writing",
+      "evidenceScope": "historical_course_experience",
+      "accessScope": "public",
+      "courseIdentityStatus": "current_title_matches_historical_source_term_unconfirmed",
+      "id": "ash-2025-mgt623",
+      "courseCode": "MGT 623",
+      "courseTitle": "Strategic Leadership Across Sectors",
+      "title": "Strategic Leadership Across Sectors 学生体验",
+      "faculty": [
+        "Jeffrey A. Sonnenfeld"
+      ],
+      "summary": "作者喜欢与不同行业领导者交流，认为课堂投入感强，并提醒可能被随机提问。",
+      "workload": {
+        "value": 1,
+        "scale": 5,
+        "meaning": "作者个人Lift评分，不是质量评分或每周工时"
+      },
+      "limitations": [
+        "同一作者的个人体验；具体修读学期未确认。",
+        "个人Lift不能解释为实际工时或普遍低负担；不推断2027安排不变。"
+      ],
+      "sourceChecks": {
+        "method": "web_reader_full_article_checked",
+        "checkedAt": "2026-11-11T15:42:46.601825+00:00",
+        "httpClientStatus": "proxy_blocked_403",
+        "note": "Full source was read with web tool; standalone HTTP revalidation may fail without implying article absent.",
+        "foundCourseReference": true
+      }
     }
   ]
 }

@@ -40,7 +40,7 @@ export const credits=(courses:Course[])=>Math.round(courses.reduce((n,c)=>n+(c.c
 export const halfCredits=(courses:Course[],half:'S1'|'S2')=>credits(courses.filter(c=>halves(c.session).includes(half)));
 const careerWords:Record<string,string[]>={AI:['artificial intelligence','ai ','machine learning','data','analytics','technology','digital'],产品:['product','design','innovation','customer','business model','pricing','marketing'],咨询:['strategy','strategic','decision','competitive','operations','management'],金融:['finance','financial','invest','capital','credit','equity','pricing'],供应链:['supply','operations','geopolit','procurement','manufactur','enterprise']};
 export function recommendation(c:Course,career:string){
- const text=[c.title,c.summary??'',...c.categories].join(' ').toLowerCase();
+ const text=[c.title,c.description??'',...c.categories].join(' ').toLowerCase();
  const terms=career.split(/[,，、\s]+/).filter(Boolean);const hits=terms.filter(t=>(careerWords[t]??[t.toLowerCase()]).some(w=>text.includes(w)));
  return {score:hits.length*20+(c.meetings.length?1:0),reason:hits.length?`课程标题／描述与“${hits.join('、')}”相关；这是文本关联，不代表学习效果或求职保证。`:'尚未发现与当前方向的直接文本关联；仍可按兴趣和课程资料比较。'};
 }

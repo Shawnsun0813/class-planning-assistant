@@ -1,0 +1,97 @@
+{
+  "url": "http://127.0.0.1:5173/",
+  "measurements": [
+    {
+      "width": 1440,
+      "firstCourse": {
+        "x": 318,
+        "y": 425.96875,
+        "width": 1090,
+        "height": 330.625
+      },
+      "controls523": [
+        {
+          "text": "展开官方全文 ↓",
+          "aria": null,
+          "y": 618,
+          "h": 24.59375
+        },
+        {
+          "text": "比较",
+          "aria": "比较 MGT 523-01",
+          "y": 654.59375,
+          "h": 36
+        },
+        {
+          "text": "加入讨论方案",
+          "aria": null,
+          "y": 654.59375,
+          "h": 36
+        },
+        {
+          "text": "",
+          "aria": "锁定 MGT 523-01",
+          "y": 654.59375,
+          "h": 36
+        },
+        {
+          "text": "排除推荐",
+          "aria": null,
+          "y": 658.296875,
+          "h": 28.59375
+        }
+      ],
+      "documentWidth": 1440
+    },
+    {
+      "width": 390,
+      "firstCourse": {
+        "x": 18,
+        "y": 561.625,
+        "width": 354,
+        "height": 455.28125
+      },
+      "controls523": [
+        {
+          "text": "展开官方全文 ↓",
+          "aria": null,
+          "y": 830.515625,
+          "h": 24.59375
+        },
+        {
+          "text": "比较",
+          "aria": "比较 MGT 523-01",
+          "y": 901.90625,
+          "h": 40
+        },
+        {
+          "text": "加入讨论方案",
+          "aria": null,
+          "y": 901.90625,
+          "h": 40
+        },
+        {
+          "text": "",
+          "aria": "锁定 MGT 523-01",
+          "y": 901.90625,
+          "h": 40
+        },
+        {
+          "text": "排除推荐",
+          "aria": null,
+          "y": 901.90625,
+          "h": 40
+        }
+      ],
+      "documentWidth": 390
+    }
+  ],
+  "sha256": {
+    "src/App.tsx": "b9965eb3f53da1201c6d488b36908397b432dc7ca6b20cb9165d1fa8876ad95b",
+    "src/CourseEvidence.tsx": "71c1ba44d3d5a3011ed7ddf7a4705ed0195d38e987e7ce2be6c2c910f9a587de",
+    "src/styles.css": "d8382d41f024013895b95b44139044c13c3fcb586fbab225ab58a3d8d5e07ebc",
+    "data/catalog.json": "6ea4d49b9d5e936d016103a67454f212d7d1e5a6544425cd3a56141e6aa2c241",
+    "data/reviews.json": "31d1673fbe24f862bec353986527882eff3b74869c89f1165373c41a92f77221",
+    "data/review-sources.json": "4f12bfbfc15f5d2efddd6b59086eacc9e77021e5aea727f7772390e66da3dc36"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "records": 6,
+  "sourceTypes": {
+    "independent_student_first_person": 2,
+    "school_published_alumni_first_person": 1,
+    "published_alumni_first_person_interview": 1,
+    "school_published_alumni_profile": 1,
+    "school_published_student_ta_context": 1
+  },
+  "uniqueSourceUrls": 5,
+  "sourceDomains": {
+    "fraxinus1098.substack.com": 2,
+    "som.yale.edu": 3,
+    "poetsandquants.com": 1
+  },
+  "coveredCourseCodes": [
+    "MGT 531",
+    "MGT 554",
+    "MGT 561"
+  ],
+  "coveredCourseCodeCount": 3,
+  "coveredSections": 5,
+  "totalCourseCodes": 145,
+  "totalSections": 245,
+  "ratingsProvided": 0,
+  "termKnown": 0,
+  "reviewRows": [
+    {
+      "id": "ash-2025-mgt554",
+      "courseCode": "MGT 554",
+      "sourceUrl": "https://fraxinus1098.substack.com/p/250k-later-my-slightly-obsessive",
+      "sourceType": "independent_student_first_person",
+      "author": "Ash Duong",
+      "publishedAt": "2025-05-10",
+      "term": null,
+      "faculty": [
+        "Tong Wang"
+      ],
+      "independentSampleSize": 1
+    },
+    {
+      "id": "ash-2025-mgt531",
+      "courseCode": "MGT 531",
+      "sourceUrl": "https://fraxinus1098.substack.com/p/250k-later-my-slightly-obsessive",
+      "sourceType": "independent_student_first_person",
+      "author": "Ash Duong",
+      "publishedAt": "2025-05-10",
+      "term": null,
+      "faculty": [
+        "David Tate"
+      ],
+      "independentSampleSize": 1
+    },
+    {
+      "id": "andrea-2025-mgt561",
+      "courseCode": "MGT 561",
+      "sourceUrl": "https://som.yale.edu/story/2025/som-women-supply-chain-10-questions-5-experts",
+      "sourceType": "school_published_alumni_first_person",
+      "author": "Andrea Pacheco, MAM 2022",
+      "publishedAt": "2025-01-14",
+      "term": null,
+      "faculty": [
+        "Alex Burnap"
+      ],
+      "independentSampleSize": 1
+    },
+    {
+      "id": "erin-2024-mgt531",
+      "courseCode": "MGT 531",
+      "sourceUrl": "https://poetsandquants.com/2024/08/24/2024-mba-to-watch-erin-manning-yale-school-of-management/",
+      "sourceType": "published_alumni_first_person_interview",
+      "author": "Erin Manning, MBA 2024",
+      "publishedAt": "2024-08-24",
+      "term": null,
+      "faculty": [
+        "Heidi Brooks"
+      ],
+      "independentSampleSize": 1
+    },
+    {
+      "id": "edirin-2019-mgt531",
+      "courseCode": "MGT 531",
+      "sourceUrl": "https://som.yale.edu/profile/edirin-aghoghovbia-19",
+      "sourceType": "school_published_alumni_profile",
+      "author": "Edirin Aghoghovbia, MAM 2019",
+      "publishedAt": null,
+      "term": null,
+      "faculty": [],
+      "independentSampleSize": 1
+    },
+    {
+      "id": "luisa-2025-mgt561-context",
+      "courseCode": "MGT 561",
+      "sourceUrl": "https://som.yale.edu/story/2025/day-life-luisa-locatelli-25",
+      "sourceType": "school_published_student_ta_context",
+      "author": "Luisa Locatelli, MBA 2025",
+      "publishedAt": "2025-06-23",
+      "term": null,
+      "faculty": [
+        "Alex Burnap"
+      ],
+      "independentSampleSize": 1
+    }
+  ],
+  "sourceMetadata": {
+    "schemaVersion": 1,
+    "retrievedAt": "2026-11-11T12:58:48.281846+00:00",
+    "reviewCount": 6,
+    "searchedSources": [
+      "public student writing",
+      "official SOM alumni/student interviews",
+      "Coursicle review directory",
+      "Yale OCE"
+    ],
+    "limitations": [
+      "No official OCE evaluation scores were accessible without authentication.",
+      "No review was fabricated for new courses; absent reviews remain absent.",
+      "Published testimonials are selective individual evidence, not a representative survey.",
+      "No evidence found sufficient to establish that Product Management is generally easy or low value."
+    ],
+    "targetedSearch": {
+      "checkedAt": "2026-11-11T13:06:12.270328+00:00",
+      "courseCodes": [
+        "MGT 651",
+        "MGT 878",
+        "MGT 652",
+        "MGT 846",
+        "MGT 901",
+        "MGT 861"
+      ],
+      "result": "No additional directly readable first-person review could be confidently attributed to these current course identities. Existing six records retained.",
+      "searchedBy": [
+        "current course title plus Yale plus review/student",
+        "course number plus Yale plus review",
+        "current instructor plus course title"
+      ],
+      "rejectedMatches": [
+        {
+          "url": "https://som.yale.edu/profile/faculty/sang-kim",
+          "reason": "Faculty discussion of new MGT 878; not a student review."
+        },
+        {
+          "url": "https://som.yale.edu/profile/professor-jonathan-e-ingersoll-jr",
+          "reason": "Alumnus praise of an older Ingersoll financial-engineering class; not attributable to current MGT 901 with Majd/Rosenbluth."
+        },
+        {
+          "url": "https://som.yale.edu/profile/eddie-thai-12",
+          "reason": "Older private-equity/venture-capital class with David Cromwell; not Robert Davis current MGT 846."
+        },
+        {
+          "url": "https://coursetable.com/catalog?course-modal=202401-28879",
+          "reason": "Only JavaScript application shell readable; no evaluation text obtained."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "sha256": "62f1b863fe49c141a2bc8ca9a938e85882d6cb0438de510f2a2c8aa629425db1",
+  "files": {
+    "src/App.tsx": "b9965eb3f53da1201c6d488b36908397b432dc7ca6b20cb9165d1fa8876ad95b",
+    "src/CourseEvidence.tsx": "71c1ba44d3d5a3011ed7ddf7a4705ed0195d38e987e7ce2be6c2c910f9a587de",
+    "src/ai.ts": "07119feedd4c6cb917286273aa62969b815d3054a4cd080b6a01b1ddc69450b9",
+    "src/core.ts": "7c0af6793dbd105e7c98f3065f99800cfb6325c4e3c50307bbe64a952cab93cd",
+    "src/evidence.ts": "c8d589e0b4008ee2525c941203ec2dd2ccb1b0a1a38fb941d406df0b33505fbf",
+    "src/main.tsx": "e34b50223ac942759bc00c81a3d886fa77fc39645c31a32bd14841cbaceb2300",
+    "src/styles.css": "d8382d41f024013895b95b44139044c13c3fcb586fbab225ab58a3d8d5e07ebc",
+    "src/types.ts": "adf551758ea2047fe6381a3da8b53afc9a1ab0f99edf0b5c571bd613dc000c62",
+    "data/bidding-history.json": "b6a74fd6b14a3c1a42d9dc4c6c838069df5dbec3be79139ef65eaf672c0f8269",
+    "data/catalog.json": "6ea4d49b9d5e936d016103a67454f212d7d1e5a6544425cd3a56141e6aa2c241",
+    "data/data-audit.json": "fbe53a85f0472659f40a7a92faeeb06b71d6a4f4601d2481263b17494682e9be",
+    "data/enrollment-history.json": "2c28f4b62dc5c003e981b7267b596c0cdd4f43223d188dfedc2ef94d75ec2f41",
+    "data/exchange-history.json": "e9bde9a768da257b478e840c3e5e409acf480d188281e7eb9261c731b9a09f90",
+    "data/nonsom-history.json": "59a75461e078c1a66c9c1ad099c4a3118c3edbba7667f0b4d18688f27a26e88d",
+    "data/raw/Auction-Bidding-History.xlsx": "e3ab444d95dc1d89d4f01b659a293db002b9502f4db92a1b357d334c83c323f6",
+    "data/raw/Enrollment-History.xls": "5e3711e59c2570c3d7c23da71d8e301d730dbbde56288397c45a774558dece6d",
+    "data/raw/International-Exchange-Bidding-History.xlsx": "71d9334bf7cf3a8d00749a995cff75cd6a6c0f13cf2522d0749225169771e148",
+    "data/raw/SOM Students in NonSOM Courses for Portal.xlsx": "8398b54744e80c72959ed6aec55a4c90832d9f59344e70c92bfa48add8d33a97",
+    "data/review-sources.json": "4f12bfbfc15f5d2efddd6b59086eacc9e77021e5aea727f7772390e66da3dc36",
+    "data/reviews.json": "31d1673fbe24f862bec353986527882eff3b74869c89f1165373c41a92f77221",
+    "scripts/fetch_catalog.py": "0235ddf46bb6500bb8d878d8e317b641eb0dc4b24a3827cb64fd6af0bb4448ad",
+    "scripts/review_sources.py": "c9b2a9b969c48995a8c604e9565536edc23dc5212fa8d93c829f93aedab0d6a4",
+    "vite.config.ts": "8ba3912a0231a152037b40a87d396ec0a30237bd324dd9e9d75ce89661a50731",
+    "package-lock.json": "b5dde85194b657a2e4d5a4c945237bfa85d100a93ac467c5b45eda5620b512b9",
+    ".github/workflows/deploy.yml": "ed37491177d0444d0df5c850906fcf3c291a317c99a5e9be638dfb3590a1ad2e"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-11-11T15:52:03.354739+00:00",
+  "candidateSourceSha256": "62f1b863fe49c141a2bc8ca9a938e85882d6cb0438de510f2a2c8aa629425db1",
+  "allManifestFilesMatch": true,
+  "distDataMatchesReviewedSource": {
+    "catalog": true,
+    "bidding-history": true,
+    "reviews": true,
+    "enrollment-history": true,
+    "exchange-history": true,
+    "nonsom-history": true,
+    "review-sources": true
+  },
+  "rawExcelAbsentFromDist": true,
+  "historicalDataValidation": "scripts/validate_data.py passed",
+  "managerVisualReview": [
+    "artifacts/audit/design-desktop-523-expanded.png",
+    "artifacts/audit/design-mobile-523-full.png"
+  ],
+  "sharedBrowserAttempt": {
+    "result": "blocked",
+    "error": "Browser Use could not read requirements",
+    "nativeAttempt": "sky.launch_app returned but no Chromium window appeared"
+  },
+  "onlineCandidateValidation": "pending deployment",
+  "manifestFileCount": 25
+}
